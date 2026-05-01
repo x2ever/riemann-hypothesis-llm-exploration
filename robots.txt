@@ -1,7 +1,7 @@
 ---
-# Front matter so Jekyll processes Liquid; output saved verbatim.
 permalink: /robots.txt
 sitemap: false
+layout: null
 ---
 User-agent: *
 Allow: /
