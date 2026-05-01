@@ -13,6 +13,10 @@
 > All paper-direct quotes are anchored to specific page/section. All "specialist Δ" estimates are LLM paraphrases of paper §-end quotes (see `lemmas/specialist_delta_anchoring_protocol.md`), not actual specialist opinions. Any apparent "discovery" is paper-direct rediscovery — see attempt-level `novel content X` annotations.
 >
 > Best entry points: `learnings/external_critique_2026-05.md`, `lemmas/failed_proof_catalog_publishable.md`, `lemmas/lemma1_axiom6_ceiling.md`.
+>
+> **Site**: https://x2ever.github.io/riemann-hypothesis-llm-exploration/ (English + Korean)
+>
+> **Contact**: x2ever.han@gmail.com
 
 ## 미션
 
