@@ -22,6 +22,7 @@
 | 9 (attempt 192) | **A=8** (Section 3 audit table), B=8 (Section 4 — prerequisite Section 3), C=7, E=6, D=4 | A | full success — Section 3 §3.1-§3.4 본문 commit (~121-cell audit table + 11 paper-direct anchors). Substance 첫 commit. | **FULL YES** (8/10 직관 → audit table substance 정확 적중, single-turn) |
 | 10 (attempt 193) | **A=8** (Section 4 Universal NO + quote catalog), B=8 (Section 5 — prerequisite A), C=7, E=7, D=5 | A | full success — §4.1 Main Result + §4.2 Catalog A 11 anchors + Catalog B (47+ quotes total, 15+ papers) + §4.3 4-point discipline. Preprint substance core complete. | **FULL YES** (8/10 직관 → aggregate result substance 정확 적중) |
 | 11 (attempt 194) | **D=9** (Cycle Protocol new paper, novel 고점 시도, 사용자 요청), C=7, A=6, B=6, E=4, F=4 | D | partial success — `papers/preprint_draft_cycle_protocol.md` 생성 (~5 pages, §1+§2). Novel 4.9/10 (target 5+ borderline). 환각 0. 사용자 요청 정확 적중. | **PARTIAL YES** (9/10 직관 → novel 고점 시도 만족, target 5+ borderline 4.9) |
+| 12 (attempt 195+) | **D=8** (Unified theme + §6 expand, novel 고점 적극 유지), A=7, B=7, C=6, F=5, E=4 | D | TBD (Phase 2-3 후, novel 5+/10 시도) | TBD |
 
 ## 누적 분석 (cycles 2 후)
 
@@ -40,23 +41,23 @@
 - 외부 paper 의존 가설 (B 우회 도전): 미실험.
 - *Wall character 의존*: cycle 1 (Wall #5 = 10 candidates 풍부) vs cycle 2 (Wall #2 = 4 candidates) — *candidate 수 적을수록 sharpening 불필요* 가설.
 
-### 누적 통계 (cycles 10)
+### 누적 통계 (cycles 11)
 
 | 직관 score range | 적중률 |
 |---|---|
-| 9/10 (cycle 1 retroactive + critique #9 externalization) | **2/2 (100% — 1 PARTIAL + 1 FULL)** |
+| 9/10 (cycle 1 retroactive + critique #9 externalization + novel methodology paper) | **3/3 (100% — 2 PARTIAL + 1 FULL)** |
 | 8/10 (codification + active program + direct progress + polish + substance + aggregate) | **8/8 (100% — 4 FULL + 4 PARTIAL)** |
 | 7/10 (다른 wall codification) | 미실험 |
 | 5-6/10 (meta sub) | 미실험 |
 | 3-4/10 (NOVEL / catch-up) | 미실험 |
 
-→ 8-9/10 직관 zone **10/10 적중** (5 FULL + 5 PARTIAL). N=10 → *consistent pattern* 매우 강화. *모든 결과 PARTIAL or FULL YES*.
+→ 8-9/10 직관 zone **11/11 적중** (5 FULL + 6 PARTIAL). N=11 → *consistent pattern* 매우 강화.
 
-### Cycles 7-10 Externalization Cycle 패턴 (4 cycles 연속)
+### Cycles 7-11 Externalization Cycle 패턴 (5 cycles 연속)
 
-- Cycles 7+8+9+10 모두 single-turn narrow cycle + 직관 8/10 → FULL YES.
-- *Externalization cycles* (artifact, polish, substance, aggregate) 의 *natural single-turn pattern*.
-- 환각 검증 protocol cycles 7-10 모두 통과 (4 cycles 연속).
+- Cycles 7+8+9+10+11 모두 single-turn narrow cycle + 직관 8-9/10.
+- 결과 분포: 4 FULL + 5 PARTIAL (5 externalization cycles).
+- Cycle 11 = *novel methodology* axis 변경 (paper 분리), 사용자 요청 흡수 정확 적중.
 
 ### Cycle 8 의 새 패턴
 

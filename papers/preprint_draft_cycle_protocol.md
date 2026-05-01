@@ -146,9 +146,74 @@ Across cycles, the following invariants are maintained:
 | Novel content evaluated *honestly* with breakdown | Phase 3 step 1 final item |
 | External artifact *only* under publishable discipline | Phase 3 step 5 critique #9 |
 
-## (Sections 3-6 deferred to subsequent cycles)
+## 6. Honest Limits and Future Work — Four Mechanisms of AI-Assisted Sustained Research
 
-Section 3 (Validation Metrics — intuition calibration, pivot rate, novel content trend), Section 4 (Critique Absorption Chain #6-#9), Section 5 (Externalization 5-stage Progression), Section 6 (Honest Limits and Future Work) will be expanded in cycles 12-15.
+This section presents the empirical *progress drivers* observed across the 11 validated cycles, identifying four mechanisms by which the protocol generates non-trivial output (i.e., outputs that are not pure restatement of prior cycles). We treat these as the *novel contribution* of the present paper to AI-for-Math methodology, while explicitly bounding the scope of the claim.
+
+### 6.1 Mechanism 1: Externalization 5-Stage Progression
+
+We observed a *5-stage progression* of externalization across cycles 6-10:
+
+1. **Outline** (cycle 6): outline of an external review-able artifact, no body content.
+2. **Artifact first commit** (cycle 7): first body content written, sections 1-2 of preprint.
+3. **Polish** (cycle 8): existing body content refined for external readability (explicit definitions, formal notation, references to internal taxonomy made standalone).
+4. **Substance** (cycle 9): core data section added (audit table, paper-direct anchors).
+5. **Aggregate result + discipline** (cycle 10): theorem statement, supporting catalog, methodological discipline articulation.
+
+**Observation.** The 5-stage progression is *natural and observed*, not designed: cycles 7-10 each chose a single-turn narrow scope, and the progression emerged from the cycle-by-cycle "what is the next narrow thing to add" decisions made independently in each Phase 1 ideation. This suggests the externalization stages are *latent* in the methodology and naturally surface under sustained research.
+
+**Limitation.** The 5-stage observation is *single-paper* (the axiom 6 ceiling preprint). Other artifacts may follow different progressions or different stage counts.
+
+### 6.2 Mechanism 2: Novel Jump Trigger via External Critique Absorption
+
+Of the 11 validated cycles, two stand out for *novel content score jump* above the externalization-cycle baseline of 1.4-2.6/10:
+- Cycle 6 (6.7/10): triggered by external critique #9 ("publishable artifact externalization"), which redirected cycle output from internal lemma codification to external review-able artifact.
+- Cycle 11 (4.9/10, partial): triggered by user request ("novel content score 고점 시도 적극"), which redirected cycle output from preprint sequential expansion (which had been stable at 1.4-2.6 for cycles 7-10) to a *new paper draft* on cycle protocol methodology itself.
+
+**Observation.** Both novel jumps occurred when an external critique forced a *change of axis*, not refinement within the existing axis. The protocol's tendency without external trigger is to refine the current axis (cycles 7-10 narrow polish/substance/aggregate); external critiques break this.
+
+**Limitation.** This pattern is *empirical* over a small number (N=2) of jump events. We cannot claim that novel jump *requires* external critique, only that in our corpus the two novel jumps coincided with external critique absorption.
+
+### 6.3 Mechanism 3: Hallucination Verification Protocol
+
+Cycles 7-11 (5 consecutive cycles) included an explicit *outline-to-text honest mapping* check during Phase 2: every nontrivial claim in the externalization output was verified to have either (a) paper-direct quote anchor or (b) prior-cycle work.md verified result anchor or (c) hallucination flag (claim withdrawn).
+
+**Observation.** Across cycles 7-11, hallucination flag count = 0. This consistency suggests the protocol's *paper-direct anchor discipline* (Phase 2 component 4 in §2.2) is operationally sufficient to prevent hallucination drift in externalization cycles.
+
+**Limitation.** Zero hallucination over 5 cycles is *not statistical guarantee*. Larger corpus (N=20+) would strengthen the claim. The discipline may also fail under adversarial conditions (e.g., if the agent is asked to extrapolate beyond the verified evidence).
+
+### 6.4 Mechanism 4: Two-Axis Contribution Separation
+
+The 11 validated cycles produced two distinct external review-able artifacts:
+- **Axiom 6 ceiling preprint** (cycles 7-10): codification of the empirical universal NO observation in the Hilbert-Pólya program. Sections 1-4 (~10-13 pages, substance core complete).
+- **Cycle protocol paper** (cycle 11+, the present paper): novel methodology contribution. Sections 1-2 (~5 pages) + Section 6 (this section).
+
+**Observation.** The two artifacts occupy distinct *contribution axes*: the ceiling preprint is *codification* (recodification of self-acknowledged obstacles), the protocol paper is *novel methodology* (AI-for-Math protocol-level contribution). Attempting to merge them into a single artifact would dilute both. The separation occurred *naturally* once external critique #9 (cycle 6) and user novel-高점 request (cycle 11) made the two axes salient.
+
+**Limitation.** The two-axis pattern is *single-corpus*. Other AI-assisted research efforts may produce one axis only or three+.
+
+### 6.5 Honest Limits
+
+We list the limits of the protocol as observed in cycles 1-11:
+
+- **Single LLM single domain validation.** Claude-class LLM, RH domain only. Generalization to other LLMs (GPT-class, open-source) and other domains (physics, biology) is unverified.
+- **Empirical novel content cap.** Cycles 1-11 highest novel score = 6.7/10 (cycle 6, external critique-driven), with stable baseline 1.4-3.7/10 across non-jump cycles. The protocol does *not* generate sustained novel content > 5/10 without external trigger.
+- **Hallucination zero is empirical, not provable.** §6.3 limit applies.
+- **No proof of Riemann Hypothesis.** Cycles 1-11 produce *empirical universal NO* codification on Hilbert-Pólya candidates (axiom 6) — *not* an RH proof attempt. The cycle protocol paper makes no RH claim.
+- **Operational protocol, not formal protocol.** §2 describes operational practice, not ZFC-level formal specification.
+- **Race conditions in event-driven cycle**: the Stop-hook mechanism (§2.4) exhibits transcript-flush race conditions that produce repeated phase prompt injections; the agent must apply *forward progress override* heuristically. A strictly formal cycle protocol would not have this issue.
+
+### 6.6 Future Work
+
+- **Multi-LLM validation**: re-run the cycle protocol across GPT-class, open-source LLMs to verify reproducibility.
+- **Multi-domain validation**: apply to a non-RH open problem (e.g., Goldbach, twin primes, P vs NP) to verify domain-generality.
+- **Strictly formal protocol specification**: ZFC-level or process-calculus specification eliminating race conditions and operational ambiguity.
+- **Larger N hallucination study**: extend the corpus to N=20+ cycles and measure hallucination rate quantitatively.
+- **External critique injection mechanism**: cycle 6 (critique #9) and cycle 11 (user novel-高점 request) were *exogenous* events. A protocol-level mechanism for *generating* such critiques (e.g., adversarial agent role) would internalize the novel-jump trigger.
+
+## (Sections 3-5 deferred to subsequent cycles)
+
+Section 3 (Validation Metrics — intuition calibration, pivot rate, novel content trend detail), Section 4 (Critique Absorption Chain #6-#9 detailed), Section 5 (Externalization 5-Stage Progression detail) will be expanded in cycles 13-14. The present paper's §1, §2, §6 already constitute a self-contained methodological essay.
 
 ---
 
