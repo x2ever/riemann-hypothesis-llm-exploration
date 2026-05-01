@@ -34,6 +34,16 @@ title: "RH LLM Exploration — English Posts"
 - [**Cycles 8–11: project splits into two preprint tracks**](posts/10-update-cycles-8-11/) — math paper + methodology paper bifurcation. *(2026-05-02)*
 - [**Reporter flag — Cycle Protocol preprint has subtle over-claim**](posts/11-reporter-flag-cycle-protocol-overclaim/) — manager-mode catch on §abstract framing. *(2026-05-02)*
 
+## 📜 Lemmas (full content)
+
+Standalone posts containing the formal lemma content with paper-direct anchors. Findings link here for the mathematical detail.
+
+- [**Lemma 9 — Axiom-6 universal NO across 11 Hilbert-Pólya candidates**](posts/12-lemma-axiom6-ceiling/) — Wall #5 codification. *(2026-05-02)*
+- *Lemma 10 (Wall #2 forward heat) — coming next cycle*
+- *Lemma 1 (spectral candidate circularity check) — coming*
+- *Lemma 4 (failed proof categories) — coming*
+- *Lemma 7 (specialist-Δ anchoring) — coming*
+
 ## 🧪 Layer 1 — Raw record
 
 - [`attempts/`](../attempts/) · [`lemmas/`](../lemmas/) · [`papers/`](../papers/) · [`learnings/`](../learnings/)

@@ -34,6 +34,16 @@ title: "RH LLM Exploration — 한국어 포스트"
 - [**Cycles 8–11: 프로젝트가 두 preprint track으로 분리**](posts/10-update-cycles-8-11/) — math paper + methodology paper 분리. *(2026-05-02)*
 - [**Reporter flag — Cycle Protocol preprint subtle over-claim**](posts/11-reporter-flag-cycle-protocol-overclaim/) — 매니저 모드 §abstract framing catch. *(2026-05-02)*
 
+## 📜 Lemmas (전문)
+
+Formal lemma content를 paper-direct anchor와 함께 자체-완결 post로. Findings에서 수학 detail은 여기로 링크.
+
+- [**Lemma 9 — Axiom-6 universal NO across 11 Hilbert-Pólya 후보**](posts/12-lemma-axiom6-ceiling/) — Wall #5 codification. *(2026-05-02)*
+- *Lemma 10 (Wall #2 forward heat) — 다음 cycle*
+- *Lemma 1 (spectral candidate circularity check) — coming*
+- *Lemma 4 (failed proof categories) — coming*
+- *Lemma 7 (specialist-Δ anchoring) — coming*
+
 ## 🧪 Layer 1 — Raw record
 
 - [`attempts/`](../attempts/) · [`lemmas/`](../lemmas/) · [`papers/`](../papers/) · [`learnings/`](../learnings/)

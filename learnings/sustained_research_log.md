@@ -358,6 +358,38 @@
 - **Novel content trend**: 1.5 → 6.7 → 2.6 → 1.4 → 1.9 → 2.2 → **4.9** (cycle 11 partial 고점, 사용자 요청 흡수).
 - **사용자 요청 흡수 → novel jump trigger** (cycle 6 critique #9 패턴 재현).
 
+## Cycle 12 (attempt 195, single-turn narrow, **§6 4 Mechanisms Unified Codification**)
+
+- **Hypothesis**: Cycles 1-11 *unified theme 추출* — 4 mechanisms (externalization progression / novel jump trigger / hallucination 검증 / two-axis contribution) cycle protocol paper §6 통합.
+- **DoD**: 6 항목 + Novel target 5+/10 시도.
+- **결과**: **Partial success — §6 본문 commit, Novel 4.0/10 (target 5+ 미충족)**.
+  - §6.1-§6.4 4 mechanisms codification (paper-direct anchor cycles 1-11).
+  - §6.5 6 honest limits + §6.6 5 future work.
+  - 환각 0.
+  - Novel 4.0 turn 1 (cycle 11 4.9 보다 ↓, target 5+ partial X).
+- **직관 적중 (Phase 1 → 결과)**: D=8/10 → **PARTIAL YES** (codification manifest 적중, novel 5+/10 target 미달).
+- **Meta 교훈**:
+  1. **Codification axis 의 novel ceiling**: §6 unified theme codification = *cycles 1-11 데이터 정리* 측면 강함, *진정 새 insight* 측면 약함. cycle 11 (4.9) 보다 ↓.
+  2. **사용자 *novel 적극 시도* 한계**: cycle 11 (4.9 partial) + cycle 12 (4.0 partial X) — 연속 2 cycles partial. *외부 critique 또는 새 axis 없이는 5+/10 안정 X*.
+  3. **§6 4 mechanisms codification 가치**: cycle protocol paper *substance core* 추가 (§1+§2+§6). Sections 3-5 deferred.
+  4. **Novel score interpretation**: *codification 형식* novel ≠ *진정 새 insight* novel. cycle 11 (paper 첫 시작) > cycle 12 (§6 codification) honest 평가.
+  5. **Sequential narrow 회귀 가능성**: cycle 13+ novel 고점 시도 재고려 — 새 axis 없으면 sequential narrow (Section 3-5 of cycle protocol, Section 5+ of axiom 6) 자연스러움.
+- **막힘 패턴**: Novel 5+/10 target 미충족. *외부 critique injection* 없이는 5+ 안정 X.
+- **다음 cycle 후보 input**:
+  - Cycle 13 후보 A: Cycle Protocol §3 (Validation Metrics) 본문 — sequential narrow 회귀.
+  - Cycle 13 후보 B: Axiom 6 Section 5 (Falsifier) 본문 — sequential narrow.
+  - Cycle 13 후보 C: 새 외부 paper search (AI for Math survey) — novel 고점 또 시도.
+  - Cycle 13 후보 D: Cycles 1-12 종합 종결.
+  - Cycle 13 후보 E: 사용자 새 critique 대기 (외부 trigger 없으면 sequential narrow).
+
+### 운영 안정 패턴 갱신 (cycles 1-12)
+
+- **Single-turn narrow cycle 연속 6회** (cycles 7-12): protocol 매우 안정.
+- **Pivot rate 3/12 (25%)**: cycles 1+3+4 pivot, cycles 2+5-12 stable.
+- **8-9/10 zone 12/12 적중**: cycle 12 PARTIAL YES → 누적 5 FULL + 7 PARTIAL.
+- **Novel content trend**: 1.5 → 6.7 → ... → 4.9 → **4.0** (cycle 12, partial X). *사용자 *novel 적극* 요청 한계 도달*.
+- **외부 critique injection 부재 시**: novel 4-5 plateau (cycles 11+12). cycle 13+ 새 axis 또는 sequential narrow 회귀 결정 필요.
+
 ## 누적 패턴 (cycles 합산)
 
 (여러 cycle 후 추출)
