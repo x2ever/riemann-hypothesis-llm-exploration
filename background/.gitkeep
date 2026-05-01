@@ -1,0 +1,7 @@
+# background/
+
+Phase 3에서 채울 예정:
+- `definitions.md` — ζ, η, Ξ, von Mangoldt explicit formula 등
+- `known_results.md` — 무영점 영역, density, 임계선 위 비율 등
+- `approaches.md` — 접근법 taxonomy (analytic / RMT / adelic / spectral / ...)
+- `functional_equation.md` — Riemann's functional equation 유도와 의미

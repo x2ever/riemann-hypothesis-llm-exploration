@@ -1,0 +1,5 @@
+# lemmas/
+
+attempt 안에서 rigorously 검증된 보조정리들. 다음 시도에서 재사용.
+
+각 파일 형식: statement / proof / where used / dependencies.

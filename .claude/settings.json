@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/x2ever/repos/prove_riemann_hypothesis/.claude/hooks/phase_monitor.py"
+          }
+        ]
+      }
+    ]
+  }
+}
