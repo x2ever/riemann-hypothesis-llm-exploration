@@ -1,0 +1,90 @@
+/* ============================================================
+ * i18n.css — bilingual sidebar isolation + language toggle
+ * ============================================================ */
+
+/* ---- Sidebar: hide opposite-language tree when language known ---- */
+/* Primary: :has() selector — works synchronously with <html data-lang>      */
+/* set in head_custom.html before first paint, so no flicker.                */
+html[data-lang="en"] .nav-list-item:has(> .nav-list-link[href*="/ko/"]),
+html[data-lang="en"] .nav-list-item:has(> .nav-list-link[href$="/ko"]) {
+  display: none !important;
+}
+html[data-lang="ko"] .nav-list-item:has(> .nav-list-link[href*="/en/"]),
+html[data-lang="ko"] .nav-list-item:has(> .nav-list-link[href$="/en"]) {
+  display: none !important;
+}
+
+/* Fallback: JS-tagged attributes (i18n.js) for older browsers w/o :has() */
+html[data-lang="en"] .nav-list-item[data-nav-lang="ko"],
+html[data-lang="ko"] .nav-list-item[data-nav-lang="en"] {
+  display: none !important;
+}
+
+/* When no language detected (e.g. landing /), keep both visible. */
+
+/* ---- Floating language toggle in top-right corner ---- */
+#lang-toggle {
+  position: fixed;
+  top: 0.6rem;
+  right: 4.5rem;            /* clear of just-the-docs search icon */
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: #ffffff;
+  border: 1px solid #d4d4dc;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+#lang-toggle .lang-current {
+  color: #999;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+#lang-toggle .lang-sep {
+  color: #d4d4dc;
+}
+
+#lang-toggle .lang-switch {
+  color: #5c5962;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+#lang-toggle .lang-switch:hover {
+  color: #7253ed;
+  border-bottom-color: #7253ed;
+}
+
+/* ---- Mobile: bottom-right floater so it doesn't collide with hamburger ---- */
+@media (max-width: 50rem) {
+  #lang-toggle {
+    top: auto;
+    right: 0.75rem;
+    bottom: 0.75rem;
+    background: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+}
+
+/* ---- Dark mode (just-the-docs supports it) ---- */
+@media (prefers-color-scheme: dark) {
+  html[data-color-scheme="dark"] #lang-toggle,
+  html[color-scheme="dark"] #lang-toggle {
+    background: #2a2c33;
+    border-color: #3e404a;
+  }
+  html[data-color-scheme="dark"] #lang-toggle .lang-switch,
+  html[color-scheme="dark"] #lang-toggle .lang-switch {
+    color: #e1e1e8;
+  }
+}

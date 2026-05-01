@@ -1,4 +1,25 @@
-<!-- MathJax for rendering LaTeX -->
+<!-- ============================================================ -->
+<!-- i18n: detect language from URL prefix BEFORE first paint     -->
+<!-- (avoids flicker when CSS hides opposite-language sidebar)    -->
+<!-- ============================================================ -->
+<script>
+(function () {
+  var p = window.location.pathname;
+  var m = p.match(/\/(en|ko)(?:\/|$)/);
+  var lang = m ? m[1] : null;
+  if (lang) {
+    document.documentElement.setAttribute('lang', lang);
+    document.documentElement.setAttribute('data-lang', lang);
+    try {
+      document.cookie = 'rh_lang=' + lang + '; path=/; max-age=31536000; SameSite=Lax';
+    } catch (e) {}
+  }
+})();
+</script>
+
+<!-- ============================================================ -->
+<!-- MathJax for rendering LaTeX                                  -->
+<!-- ============================================================ -->
 <script>
 MathJax = {
   tex: {
@@ -9,3 +30,27 @@ MathJax = {
 };
 </script>
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- ============================================================ -->
+<!-- i18n: stylesheet + main JS                                   -->
+<!-- ============================================================ -->
+<link rel="stylesheet" href="{{ '/assets/css/i18n.css' | relative_url }}">
+<script src="{{ '/assets/js/i18n.js' | relative_url }}" defer></script>
+
+<!-- hreflang for SEO ------------------------------------------- -->
+{% comment %}
+  Build /<other>/<post-slug>/ link from current page URL.
+  If page.url is "/en/posts/00-anchor-honest-failure/" then ko equivalent is
+  "/ko/posts/00-anchor-honest-failure/". For non-localised pages (e.g. /),
+  hreflang tags are omitted.
+{% endcomment %}
+{% assign url_parts = page.url | split: '/' %}
+{% assign first_seg = url_parts[1] %}
+{% if first_seg == 'en' or first_seg == 'ko' %}
+  {% assign en_url = page.url | replace_first: '/' | append: '' %}
+  {% assign en_url = page.url | replace: '/ko/', '/en/' %}
+  {% assign ko_url = page.url | replace: '/en/', '/ko/' %}
+  <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+  <link rel="alternate" hreflang="ko" href="{{ ko_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ en_url | absolute_url }}">
+{% endif %}
