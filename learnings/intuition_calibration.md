@@ -18,6 +18,10 @@
 | 5 (attempt 188) | A=8 (2021 Selecta Math Weil positivity, path 1 monitoring), E=7, F=7, B=6, D=6, C=4 | A | partial success — (a) path 1 direct progress 발견 + (b) general semi-local still-open. Theorem 1 + Corollary 2 paper-direct + 2018→2021 bridging. | **PARTIAL YES** (8/10 직관 → path 1 monitoring 적중, single archimedean narrow scope sharpening) |
 | 6 (attempt 189) | **A=9** (PNAS 2022 prolate spectrum, cycle 1 retroactive test), B=8 (publishable, critique #9), F=7, C=6, D=6, E=5 | A | partial success — (b) cycle 1 universal NO 11/11 강화 + (c) UV asymptotic new candidate type + (d) cycles 5+6 Sonin space link. Critique #9 publishable preprint outline finalize. | **PARTIAL YES** (9/10 직관 → flexibility test 적중, prolate axiom 6 NO 결과 cycle 1 강화) |
 | 7 (attempt 190) | **A=9** (preprint Section 1+2 본문 작성, critique #9 direct externalization), D=7 (blog post), B=6, C=6, E=5 | A | full success — `papers/preprint_draft_axiom6_ceiling.md` 첫 commit (Section 1+2 본문 + 환각 검증 통과). Cycle 7 narrow scope single-turn. | **FULL YES** (9/10 직관 → critique #9 외부화 첫 manifest 정확 적중) |
+| 8 (attempt 191) | A=8 (Section 3 본문), **C=8** (Internal taxonomy expand polish), B=7, E=6, D=5 | C | full success — preprint Section 1 §1.1 Walls #1-#6 + Section 2 §2.0 "Strict union" formalization. Publishable readiness 향상. 환각 0. | **FULL YES** (8/10 직관 → polish manifest 정확 적중, single-turn narrow) |
+| 9 (attempt 192) | **A=8** (Section 3 audit table), B=8 (Section 4 — prerequisite Section 3), C=7, E=6, D=4 | A | full success — Section 3 §3.1-§3.4 본문 commit (~121-cell audit table + 11 paper-direct anchors). Substance 첫 commit. | **FULL YES** (8/10 직관 → audit table substance 정확 적중, single-turn) |
+| 10 (attempt 193) | **A=8** (Section 4 Universal NO + quote catalog), B=8 (Section 5 — prerequisite A), C=7, E=7, D=5 | A | full success — §4.1 Main Result + §4.2 Catalog A 11 anchors + Catalog B (47+ quotes total, 15+ papers) + §4.3 4-point discipline. Preprint substance core complete. | **FULL YES** (8/10 직관 → aggregate result substance 정확 적중) |
+| 11 (attempt 194+) | **D=9** (Cycle Protocol new paper, novel 고점 시도, 사용자 요청), C=7, A=6, B=6, E=4, F=4 | D | TBD (Phase 2-3 후, novel 고점 target 5+/10) | TBD |
 
 ## 누적 분석 (cycles 2 후)
 
@@ -36,17 +40,27 @@
 - 외부 paper 의존 가설 (B 우회 도전): 미실험.
 - *Wall character 의존*: cycle 1 (Wall #5 = 10 candidates 풍부) vs cycle 2 (Wall #2 = 4 candidates) — *candidate 수 적을수록 sharpening 불필요* 가설.
 
-### 누적 통계 (cycles 7)
+### 누적 통계 (cycles 10)
 
 | 직관 score range | 적중률 |
 |---|---|
 | 9/10 (cycle 1 retroactive + critique #9 externalization) | **2/2 (100% — 1 PARTIAL + 1 FULL)** |
-| 8/10 (codification + meta-obstruction + active program + direct progress) | **5/5 (100% — 1 FULL + 4 PARTIAL)** |
+| 8/10 (codification + active program + direct progress + polish + substance + aggregate) | **8/8 (100% — 4 FULL + 4 PARTIAL)** |
 | 7/10 (다른 wall codification) | 미실험 |
 | 5-6/10 (meta sub) | 미실험 |
 | 3-4/10 (NOVEL / catch-up) | 미실험 |
 
-→ 8-9/10 직관 zone **7/7 적중** (2 FULL + 5 PARTIAL). N=7 → *consistent pattern* 강화. **9/10 zone 첫 FULL YES** (cycle 7).
+→ 8-9/10 직관 zone **10/10 적중** (5 FULL + 5 PARTIAL). N=10 → *consistent pattern* 매우 강화. *모든 결과 PARTIAL or FULL YES*.
+
+### Cycles 7-10 Externalization Cycle 패턴 (4 cycles 연속)
+
+- Cycles 7+8+9+10 모두 single-turn narrow cycle + 직관 8/10 → FULL YES.
+- *Externalization cycles* (artifact, polish, substance, aggregate) 의 *natural single-turn pattern*.
+- 환각 검증 protocol cycles 7-10 모두 통과 (4 cycles 연속).
+
+### Cycle 8 의 새 패턴
+
+- **Polish cycle = single-turn narrow + FULL YES**: cycle 7 (artifact 첫 commit) + cycle 8 (artifact polish) 연속 single-turn. *Polish cycles* 의 자연 패턴 — 직관 8/10 적중률 100%.
 
 ### Cycle 6 특성
 
