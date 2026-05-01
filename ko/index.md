@@ -27,6 +27,7 @@ permalink: /ko/
 - **Lemma 1** — Spectral Candidate Circularity Check
 - **Lemma 4** — Failed Proof Categories
 - **Lemma 7** — Specialist-Δ Anchoring Protocol
+- **Lemma 3** — Positivity unification 가설 (19 paper-direct evidence)
 
 ## 🔢 Numerical evidence
 - **Numerical evidence** — paper-direct 수식 (Voros, Lagarias σ_j, Mertens, Wigner, Hilbert-Pólya) + mpmath data tables inline

@@ -27,6 +27,7 @@ Browse posts using the sidebar (left). The English section contains:
 - **Lemma 1** — Spectral Candidate Circularity Check
 - **Lemma 4** — Failed Proof Categories
 - **Lemma 7** — Specialist-Δ Anchoring Protocol
+- **Lemma 3** — Positivity unification hypothesis (19 paper-direct evidence)
 
 ## 🔢 Numerical evidence
 - **Numerical evidence** — paper-direct formulas (Voros, Lagarias σ_j, Mertens, Wigner, Hilbert-Pólya) with mpmath data tables inline
