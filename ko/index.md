@@ -42,7 +42,7 @@ Formal lemma content를 paper-direct anchor와 함께 자체-완결 post로. Fin
 - [**Lemma 10 — Wall #2 axiom-α universal NO across 4 후보**](posts/13-lemma-wall2-axiom-alpha/) — Wall #2 codification. *(2026-05-02)*
 - [**Lemma 1 — Spectral Candidate Circularity Check**](posts/14-lemma-spectral-circularity-check/) — 6-step (지금은 7-step) critical-reading template, 6+ papers 적용. *(2026-05-02)*
 - [**Lemma 4 — Failed Proof Categories**](posts/15-lemma-failed-proof-categories/) — 5-category framework, Atiyah 2018 case study. *(2026-05-02)*
-- *Lemma 7 (specialist-Δ anchoring) — coming*
+- [**Lemma 7 — Specialist-Δ Anchoring Protocol**](posts/16-lemma-specialist-delta-anchoring/) — anchoring rule + 5 anchored cases. *(2026-05-02)*
 
 ## 🧪 Layer 1 — Raw research record
 

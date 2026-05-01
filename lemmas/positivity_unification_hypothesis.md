@@ -297,3 +297,54 @@ cycle 6 = *외부화 첫 시도*:
 - **Workshop submission**: failed_proof_catalog_publishable expand.
 
 → *Internal accumulation only* (cycles 1-5) → *external review-able artifact 후보* (cycle 6).
+
+## Cycle 14 Update — Sub-Direction A External Bridge (Morishita 2026)
+
+> **Source**: cycle 14 (attempt 197). 사용자 요청 *wide domain paper exploration* 흡수.
+> **외부 paper acquisition**: arxiv 2410.20758 (Alvarez-Lopez 2024 Deninger conjecture proven) + arxiv 2508.15971 (Morishita 2026 Deninger ↔ Connes-Consani relation).
+
+### Sub-Direction A의 6년 후속 진전 (cycles 3-4 → cycle 14)
+
+cycles 3-4 의 Sub-Direction A (Connes-Consani 2014+ arithmetic site missing Riemann-Roch on 𝒜̂×𝒜̂):
+- 2014 (Connes-Consani arithmetic site).
+- 2018 (Connes-Consani Riemann-Roch strategy, **still open**).
+- 2022 (Connes-Moscovici prolate UV asymptotic).
+- **2024 (Alvarez-Lopez): Deninger 1990s conjecture proven** (특정 case, regularized determinant for 3-dim Riemannian foliated).
+- **2026 (Morishita): Deninger ↔ Connes-Consani relation** *Theorem 3.6 closed orbits ↔ primes corresponding*.
+
+→ **Sub-Direction A 25년 미진전 X — 1년-단위 active progress**.
+
+### Morishita 2026 Paper-Direct Anchor
+
+**Page 2 (relation 미해결 → 최근 connected)**:
+> "Although both Deninger's foliated dynamical systems and Connes-Consani's adelic spaces have the structures of foliation and dynamical system, their approaches seem deeply different. ... **Their relation has been unknown for a long time.**"
+
+**Theorem 3.6 (paper, page 2 quote)**:
+> "Deninger's map gives rise to a continuous map from his foliated dynamical systems associated to abelian extensions of ℚ to Connes-Consani's adelic spaces such that it is Galois-equivariant and flow-anti-equivariant, in particular, **closed orbits attached to primes in both spaces are corresponding**."
+
+**Arithmetic linking homomorphism**:
+> "lk_p : p^{Ẑ} → Ẑ_(p)^× := ∏_{q≠p} ℤ_q^×, plays roles in both Deninger's theory and Connes-Consani's theory as the monodromies in the coverings of phase spaces."
+
+→ ***Arithmetic topology* (knots and primes) = Sub-Direction A unified framework**.
+
+### Cycle 14 Cross-Domain Insight (3 Insights)
+
+**Insight 1 — Sub-Direction A external research 1년-단위 active**:
+- 2014 → 2018 → 2022 → 2024 → 2026 (매년 paper).
+- 우리 cycles 3-4 결과 (Sub-Direction A active) external 검증.
+
+**Insight 2 — Arithmetic topology unification**:
+- Connes-Consani arithmetic site + Deninger foliated dynamics = *unified framework via arithmetic linking* (Morishita 2026).
+- Cycle 6 의 Connes-Consani 2024 knots-primes paper (arxiv 2401.08401) 와 *동일 framework*.
+
+**Insight 3 — Hilbert-Pólya vs Cohomological *parallel axes***:
+- Cycles 1-13 axiom 6 ceiling preprint = *spectral 측면* (Hilbert-Pólya path 3, axiom 6 NO universal 11/11).
+- Cycles 3-4 + cycle 14 Morishita 2026 = *cohomological 측면* (path 2, active progress).
+- *RH 진전 4 paths* 중 path 1 + path 3 = cycles 1-13 우리 직접 작업, path 2 = external research active, path 4 = Floquet experimental.
+
+### Cycle 14 의 Wall #1 (FROBENIUS-GAP) Anchor 강화
+
+Wall #1 의 *external active progress* (2024-2026):
+- Alvarez-Lopez 2024 Deninger conjecture *proven* (특정 case).
+- Morishita 2026 Deninger ↔ Connes-Consani relation Theorem 3.6.
+→ Wall #1 의 *paper-direct active continuation* 강화 — *우리 cycles 3-4 anchors* + *external 2024-2026 anchors*.

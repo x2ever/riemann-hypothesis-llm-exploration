@@ -42,6 +42,16 @@
 
 → Connes program 의 *number field 측 Frobenius 대응 framework* paper-direct. §III spectral side construction (108 Connes §VI-VII Wall #1 anchor 와 별개).
 
+**Anchor (attempt 197 cycle 14, Morishita 2026 arxiv 2508.15971 Theorem 3.6)** — Deninger ↔ Connes-Consani bridge:
+> "Deninger's map gives rise to a continuous map from his foliated dynamical systems associated to abelian extensions of ℚ to Connes-Consani's adelic spaces such that it is Galois-equivariant and flow-anti-equivariant, in particular, closed orbits attached to primes in both spaces are corresponding."
+
+→ Wall #1 의 *cohomological transfer external active progress* (2024-2026). Cycle 3-4 Sub-Direction A 의 *external bridge 검증* — *25년 미진전 X, 1년-단위 active*.
+
+**Anchor (attempt 197 cycle 14, Alvarez-Lopez 2024 arxiv 2410.20758)** — Deninger conjecture proven (특정 case):
+- *Regularized determinant formulas for zeta functions of 3-dimensional Riemannian foliated dynamical systems*.
+- Deninger 1990s conjecture *proven* (특정 case via leafwise cohomologies + distributional dynamical Lefschetz trace formula).
+→ Wall #1 의 paper-direct *partial proof* 첫 시도 — *active continuation 2024*.
+
 ---
 
 ## 벽 #2 — FORWARD-TIME (refined by attempt 006, paper-direct origin attempt 113)

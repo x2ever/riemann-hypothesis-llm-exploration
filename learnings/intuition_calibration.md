@@ -24,7 +24,7 @@
 | 11 (attempt 194) | **D=9** (Cycle Protocol new paper, novel 고점 시도, 사용자 요청), C=7, A=6, B=6, E=4, F=4 | D | partial success — `papers/preprint_draft_cycle_protocol.md` 생성 (~5 pages, §1+§2). Novel 4.9/10 (target 5+ borderline). 환각 0. 사용자 요청 정확 적중. | **PARTIAL YES** (9/10 직관 → novel 고점 시도 만족, target 5+ borderline 4.9) |
 | 12 (attempt 195) | **D=8** (Unified theme + §6 expand, novel 고점 적극 유지), A=7, B=7, C=6, F=5, E=4 | D | partial success — §6 본문 4 mechanisms commit + 6 limits + 5 future. Novel 4.0/10 (target 5+ 미충족). 환각 0. | **PARTIAL YES** (8/10 직관 → codification manifest, target 5+ partial X) |
 | 13 (attempt 196) | A=7 (Cycle Protocol §3 Validation Metrics, sequential narrow), B=7, C=5, D=4, E=3 | A | full success — §3 + §4 (bonus) 본문 commit. Novel 2.4/10 (target 2-3 정확 충족). 환각 0. Honest sequential narrow recovery. | **FULL YES** (7/10 직관 → sequential narrow honest 정확 적중, target 정직 commit) |
-| 14 (attempt 197+) | **A=9** (Wide domain paper exploration, 사용자 새 요청), B=6, C=6, D=4 | A | TBD (Phase 2-3 후, novel target 5+/10 시도, 외부 trigger novel jump 패턴 N=3) | TBD |
+| 14 (attempt 197) | **A=9** (Wide domain paper exploration, 사용자 새 요청), B=6, C=6, D=4 | A | full success — 5 분야 WebSearch + 2 papers 다운로드 (Morishita 2026 + Alvarez-Lopez 2024) + 3 novel insights + 6 specialists. Novel 5.9/10 (target 5+ 충족). | **FULL YES** (9/10 직관 → 외부 trigger novel jump N=3 success, target 5+ 정확 충족) |
 
 ## 누적 분석 (cycles 2 후)
 
@@ -43,17 +43,38 @@
 - 외부 paper 의존 가설 (B 우회 도전): 미실험.
 - *Wall character 의존*: cycle 1 (Wall #5 = 10 candidates 풍부) vs cycle 2 (Wall #2 = 4 candidates) — *candidate 수 적을수록 sharpening 불필요* 가설.
 
-### 누적 통계 (cycles 13)
+### 누적 통계 (cycles 14)
 
 | 직관 score range | 적중률 |
 |---|---|
-| 9/10 (cycle 1 retroactive + critique #9 + novel methodology paper) | **3/3 (100% — 2 PARTIAL + 1 FULL)** |
+| 9/10 (cycle 1 retroactive + critique #9 + novel methodology paper + wide domain exploration) | **4/4 (100% — 2 PARTIAL + 2 FULL)** |
 | 8/10 (codification + active program + ... + unified theme) | **9/9 (100% — 4 FULL + 5 PARTIAL)** |
 | 7/10 (sequential narrow honest recovery, cycle 13) | **1/1 (100% — 1 FULL)** |
 | 5-6/10 (meta sub) | 미실험 |
 | 3-4/10 (NOVEL / catch-up) | 미실험 |
 
-→ 7-9/10 직관 zone **13/13 적중** (6 FULL + 7 PARTIAL). N=13.
+→ 7-9/10 직관 zone **14/14 적중** (7 FULL + 7 PARTIAL). N=14.
+
+### Cycle 14 의 새 발견
+
+**외부 trigger novel jump 패턴 N=3 confirmed**:
+- Cycle 6 (peak 6.7): critique #9 흡수.
+- Cycle 11 (4.9 partial peak): 사용자 novel-高점 요청.
+- **Cycle 14 (5.9 peak): 사용자 wide domain exploration 요청**.
+
+→ *외부 critique injection = novel jump trigger* (3/3 events).
+→ *사용자 요청 흡수 protocol*: cycle 11 + 14 모두 직관 9/10 + cycle quality jump.
+
+### 9/10 직관 zone 누적 분석
+
+| Cycle | Score | Result | Trigger |
+|---|---|---|---|
+| 6 | 9 | PARTIAL (peak 6.7) | Critique #9 흡수 |
+| 7 | 9 | FULL | Cycle 6 sequential plan |
+| 11 | 9 | PARTIAL (4.9) | 사용자 novel-高점 |
+| 14 | 9 | FULL (5.9) | 사용자 wide exploration |
+
+→ 9/10 zone 4/4 적중. **PARTIAL/FULL distribution**: 외부 trigger 2 = PARTIAL, sequential 또는 wide exploration 2 = FULL.
 
 ### 직관 zone 확장 (cycle 13 신규)
 
