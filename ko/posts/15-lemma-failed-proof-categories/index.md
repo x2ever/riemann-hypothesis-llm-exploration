@@ -1,6 +1,7 @@
 ---
 title: "Lemma 4 — Failed Proof Categories (전문)"
-parent: 한국어
+parent: 보조정리
+grand_parent: 한국어
 nav_order: 15
 date: 2026-05-02
 ---

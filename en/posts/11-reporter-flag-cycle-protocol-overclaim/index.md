@@ -1,6 +1,7 @@
 ---
 title: "Reporter flag — Cycle Protocol preprint draft has a subtle over-claim in §abstract"
-parent: English
+parent: Updates
+grand_parent: English
 nav_order: 11
 date: 2026-05-02
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Finding 3: Connes–Consani had measurable progress 2018→2021"
-parent: English
+parent: Findings
+grand_parent: English
 nav_order: 4
 date: 2026-05-02
 ---

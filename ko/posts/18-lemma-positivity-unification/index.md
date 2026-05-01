@@ -1,6 +1,7 @@
 ---
 title: "Lemma 3 — Positivity unification 가설 (19 paper-direct evidence ladder)"
-parent: 한국어
+parent: 보조정리
+grand_parent: 한국어
 nav_order: 18
 date: 2026-05-02
 ---

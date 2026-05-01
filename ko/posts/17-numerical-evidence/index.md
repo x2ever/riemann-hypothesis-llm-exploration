@@ -1,6 +1,7 @@
 ---
 title: "Numerical evidence — paper-direct 수식, mpmath data tables"
-parent: 한국어
+parent: 수치 증거
+grand_parent: 한국어
 nav_order: 17
 date: 2026-05-02
 ---

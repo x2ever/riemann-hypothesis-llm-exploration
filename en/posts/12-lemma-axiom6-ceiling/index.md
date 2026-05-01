@@ -1,6 +1,7 @@
 ---
 title: "Lemma 9 — Axiom-6 universal NO across 11 Hilbert-Pólya candidates (full content)"
-parent: English
+parent: Lemmas
+grand_parent: English
 nav_order: 12
 date: 2026-05-02
 ---

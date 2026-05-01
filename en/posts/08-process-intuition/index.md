@@ -1,6 +1,7 @@
 ---
 title: "Intuition calibration data"
-parent: English
+parent: Process
+grand_parent: English
 nav_order: 8
 date: 2026-05-02
 ---

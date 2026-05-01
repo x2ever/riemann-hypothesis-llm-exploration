@@ -1,6 +1,7 @@
 ---
 title: "직관 calibration 데이터"
-parent: 한국어
+parent: 프로세스
+grand_parent: 한국어
 nav_order: 8
 date: 2026-05-02
 ---

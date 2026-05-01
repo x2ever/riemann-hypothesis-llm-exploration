@@ -1,6 +1,7 @@
 ---
 title: "Numerical evidence — paper-direct formulas, mpmath data tables"
-parent: English
+parent: Numerical evidence
+grand_parent: English
 nav_order: 17
 date: 2026-05-02
 ---

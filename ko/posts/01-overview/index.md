@@ -1,6 +1,7 @@
 ---
 title: "프로젝트 개요"
-parent: 한국어
+parent: 시작하기
+grand_parent: 한국어
 nav_order: 1
 date: 2026-05-02
 ---

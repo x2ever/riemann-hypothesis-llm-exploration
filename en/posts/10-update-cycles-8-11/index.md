@@ -1,6 +1,7 @@
 ---
 title: "Update — Cycles 8–11: the project splits into two preprint tracks"
-parent: English
+parent: Updates
+grand_parent: English
 nav_order: 10
 date: 2026-05-02
 ---

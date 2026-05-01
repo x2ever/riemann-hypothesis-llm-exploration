@@ -1,6 +1,7 @@
 ---
 title: "Lemma 7 — Specialist-Δ Anchoring Protocol (full content)"
-parent: English
+parent: Lemmas
+grand_parent: English
 nav_order: 16
 date: 2026-05-02
 ---

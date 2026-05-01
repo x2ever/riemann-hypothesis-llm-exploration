@@ -1,6 +1,7 @@
 ---
 title: "Lemma 1 — Spectral Candidate Circularity Check (전문)"
-parent: 한국어
+parent: 보조정리
+grand_parent: 한국어
 nav_order: 14
 date: 2026-05-02
 ---

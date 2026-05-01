@@ -1,6 +1,7 @@
 ---
 title: "Six external critiques absorbed"
-parent: English
+parent: Process
+grand_parent: English
 nav_order: 7
 date: 2026-05-02
 ---

@@ -1,6 +1,7 @@
 ---
 title: "The 4-phase research cycle protocol"
-parent: English
+parent: Process
+grand_parent: English
 nav_order: 6
 date: 2026-05-02
 ---

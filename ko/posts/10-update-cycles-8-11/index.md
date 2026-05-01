@@ -1,6 +1,7 @@
 ---
 title: "업데이트 — Cycles 8–11: 프로젝트가 두 preprint track으로 분리"
-parent: 한국어
+parent: 업데이트
+grand_parent: 한국어
 nav_order: 10
 date: 2026-05-02
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Lemma 10 — Wall #2 axiom-α universal NO across 4 paper-direct candidates (full content)"
-parent: English
+parent: Lemmas
+grand_parent: English
 nav_order: 13
 date: 2026-05-02
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Finding 4: Atiyah 2018 §3.3 paper-direct step gap"
-parent: 한국어
+parent: 발견
+grand_parent: 한국어
 nav_order: 5
 date: 2026-05-02
 ---

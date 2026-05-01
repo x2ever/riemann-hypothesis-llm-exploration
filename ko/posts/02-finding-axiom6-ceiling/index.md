@@ -1,6 +1,7 @@
 ---
 title: "Finding 1: 11/11 axiom-6 ceiling — Hilbert-Pólya 후보들"
-parent: 한국어
+parent: 발견
+grand_parent: 한국어
 nav_order: 2
 date: 2026-05-02
 ---

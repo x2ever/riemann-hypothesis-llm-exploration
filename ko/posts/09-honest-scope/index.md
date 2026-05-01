@@ -1,6 +1,7 @@
 ---
 title: "Honest Scope — 본 프로젝트가 *주장하지 않는* 것"
-parent: 한국어
+parent: 시작하기
+grand_parent: 한국어
 nav_order: 9
 date: 2026-05-02
 ---

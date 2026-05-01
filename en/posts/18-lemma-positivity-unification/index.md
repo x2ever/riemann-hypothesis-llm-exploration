@@ -1,6 +1,7 @@
 ---
 title: "Lemma 3 — Positivity unification hypothesis (19 paper-direct evidence ladder)"
-parent: English
+parent: Lemmas
+grand_parent: English
 nav_order: 18
 date: 2026-05-02
 ---
