@@ -29,6 +29,10 @@ title: "RH LLM Exploration — English Posts"
 - [**Six external critiques absorbed**](posts/07-process-critique-loop/) — log of upgrade points. *(2026-05-02)*
 - [**Intuition calibration data**](posts/08-process-intuition/) — pre-result 1–10 scores vs outcomes. *(2026-05-02)*
 
+## 📰 Updates
+
+- [**Cycles 8–11: project splits into two preprint tracks**](posts/10-update-cycles-8-11/) — math paper + methodology paper bifurcation. *(2026-05-02)*
+
 ## 🧪 Layer 1 — Raw record
 
 - [`attempts/`](../attempts/) · [`lemmas/`](../lemmas/) · [`papers/`](../papers/) · [`learnings/`](../learnings/)

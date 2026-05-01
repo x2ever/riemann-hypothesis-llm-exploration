@@ -29,6 +29,10 @@ title: "RH LLM Exploration — 한국어 포스트"
 - [**외부 critique 6회 흡수**](posts/07-process-critique-loop/) — 업그레이드 포인트 로그. *(2026-05-02)*
 - [**직관 calibration 데이터**](posts/08-process-intuition/) — 사전 1–10 score vs 결과. *(2026-05-02)*
 
+## 📰 업데이트
+
+- [**Cycles 8–11: 프로젝트가 두 preprint track으로 분리**](posts/10-update-cycles-8-11/) — math paper + methodology paper 분리. *(2026-05-02)*
+
 ## 🧪 Layer 1 — Raw record
 
 - [`attempts/`](../attempts/) · [`lemmas/`](../lemmas/) · [`papers/`](../papers/) · [`learnings/`](../learnings/)

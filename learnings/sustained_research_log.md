@@ -324,6 +324,40 @@
 - **Externalization 5-stage progression**: outline → artifact → polish → substance → **aggregate result + discipline**.
 - **Preprint draft 누적 ~10-13 pages**: Sections 1-4 substance core complete. Sections 5-7 미완.
 
+## Cycle 11 (attempt 194, single-turn narrow, **Novel 고점 시도 — Cycle Protocol New Paper**)
+
+- **사용자 요청 (cycle 10 직후)**: "Novel content score 의 고점을 시도하는 것을 더 적극적으로".
+- **Hypothesis**: 새 paper draft "Sustained Research Cycle: A 4-Phase Protocol for AI-Assisted Mathematical Investigation" 시작 — cycles 1-10 protocol 자체 의 *novel methodology paper*. AI for Math 분야 contribution.
+- **DoD**: 7 항목 + Novel 고점 target 5+/10.
+- **결과**: **Partial success — *novel 고점 시도 partial 충족* (4.9/10, target 5+ borderline)**.
+  - `papers/preprint_draft_cycle_protocol.md` 생성 (~5 pages, §1 Introduction + §2 4-Phase Protocol).
+  - §1.1 4 failure modes (codification machine, premature batching, hallucination drift, NOVEL spree).
+  - §1.4 4 *Non-claims* + 3 *Positive claims* (honest scope).
+  - §2.1-§2.5 4-Phase detailed protocol + Anti-patterns blocked table.
+  - 환각 검증 통과 (S9 + S10 blind round, novel 시도 환각 위험 zone).
+- **직관 적중 (Phase 1 → 결과)**: D=9/10 → **PARTIAL YES** (turn 1 4.9/10, target 5+ borderline; Phase 3 합산 5+ 가능).
+- **Meta 교훈**:
+  1. **Novel 고점 시도 protocol-level paper 가능**: cycles 1-10 codification + externalization 후 *protocol 자체* 가 novel methodology contribution. *우리 진정 novel*.
+  2. **사용자 요청 흡수 → cycle quality jump**: cycle 6 (critique #9 흡수 6.7) 와 동질 — *외부 critique 흡수* 가 novel 고점 trigger.
+  3. **두 paper draft 분리 axes**: axiom 6 ceiling preprint = *codification*, cycle protocol paper = *novel methodology*. *분리 axes contribution*.
+  4. **환각 위험 zone 통과**: novel 고점 시도 시 *honest scope 명시* (4 non-claims) 가 환각 회피 mechanism.
+  5. **Single-turn narrow cycle 연속 5회** (cycles 7-11): protocol 매우 안정.
+- **막힘 패턴**: 직접 막힘 X. *Novel target 5+/10 borderline* — turn 1 만으로는 4.9, Phase 3 합산 시 5+ 예상.
+- **다음 cycle 후보 input**:
+  - Cycle 12 후보 A: Cycle Protocol Paper §3 (Validation Metrics) 본문.
+  - Cycle 12 후보 B: Cycle Protocol Paper §4 (Critique Absorption Chain) 본문.
+  - Cycle 12 후보 C: Axiom 6 Ceiling Preprint Section 5 (Falsifier Search) — sequential plan.
+  - Cycle 12 후보 D: Cycles 1-11 종합 종결.
+
+### 운영 안정 패턴 갱신 (cycles 1-11)
+
+- **Single-turn narrow cycle 연속 5회** (cycles 7-11): protocol 매우 안정.
+- **Two paper drafts axes**: axiom 6 ceiling (codification) + cycle protocol (novel methodology) — 분리 contribution.
+- **Pivot rate 3/11 (27%)**: cycles 1+3+4 pivot, cycles 2+5-11 stable.
+- **8-9/10 zone 11/11 적중**: cycle 11 PARTIAL YES → 누적 5 FULL + 6 PARTIAL.
+- **Novel content trend**: 1.5 → 6.7 → 2.6 → 1.4 → 1.9 → 2.2 → **4.9** (cycle 11 partial 고점, 사용자 요청 흡수).
+- **사용자 요청 흡수 → novel jump trigger** (cycle 6 critique #9 패턴 재현).
+
 ## 누적 패턴 (cycles 합산)
 
 (여러 cycle 후 추출)
