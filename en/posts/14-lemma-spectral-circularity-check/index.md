@@ -8,7 +8,20 @@ lang: en
 
 [← All English posts](../../) · [한국어](../../../ko/posts/14-lemma-spectral-circularity-check/) · *2026-05-02*
 
-> **The first lemma the project ever produced** (Critique #1 absorption). A critical-reading template for any Hilbert–Pólya–style spectral candidate. *Methodology lemma — proof X.*
+> **The first lemma the project ever produced** (Critique #1 absorption). A critical-reading template for any Hilbert–Pólya–style spectral candidate.
+>
+> ## ⚠️ This is not a proof
+>
+> "Lemma" here means **methodology checklist**, not a mathematical theorem. The post does *not* prove:
+> - that any spectral candidate fails the criteria (per-candidate verdicts are *empirical*, paper-direct quote-anchored, not derived);
+> - that all *future* spectral candidates will fail (the audit is explicitly empirical, S9 induction caveat applies);
+> - the Riemann Hypothesis (out of project scope; RH-progress remains 0/10).
+>
+> What the post *does* contain:
+> 1. A 7-step evaluation procedure.
+> 2. A paper-direct identity for BBM 2017 using a standard Hurwitz-zeta property ($\zeta(s, 1) = \zeta(s)$, textbook fact, not project-original).
+> 3. An audit table with paper-direct quotes for each candidate.
+> 4. `mpmath` numerical sanity-check of the BBM boundary condition (verifies the standard identity, not a derivation of any new claim).
 
 ## Statement
 

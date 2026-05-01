@@ -8,7 +8,20 @@ lang: ko
 
 [← 한국어 포스트 전체](../../) · [English](../../../en/posts/14-lemma-spectral-circularity-check/) · *2026-05-02*
 
-> **프로젝트가 산출한 첫 lemma** (Critique #1 흡수). Hilbert–Pólya류 spectral 후보의 critical-reading template. *Methodology lemma — proof X.*
+> **프로젝트가 산출한 첫 lemma** (Critique #1 흡수). Hilbert–Pólya류 spectral 후보의 critical-reading template.
+>
+> ## ⚠️ 본 post는 증명이 아닙니다
+>
+> 여기서 "Lemma"는 **방법론 checklist**라는 의미이지 mathematical theorem 아님. 본 post는 다음을 *증명하지 않음*:
+> - 어떤 spectral candidate가 기준을 만족하지 못함을 증명 X (각 후보 verdict는 *empirical*, paper-direct quote-anchored, 도출 X)
+> - *모든 미래* spectral candidates가 fail함을 증명 X (audit는 명시 empirical, S9 induction 비약 caveat 적용)
+> - 리만 가설 증명 X (프로젝트 scope 외; RH-progress 0/10 유지)
+>
+> 본 post에 *포함된* 것:
+> 1. 7-step 평가 procedure.
+> 2. BBM 2017의 paper-direct identity — Hurwitz zeta의 표준 성질 사용 ($\zeta(s, 1) = \zeta(s)$, textbook fact, 프로젝트 original 아님).
+> 3. Paper-direct quote anchor가 있는 audit table.
+> 4. BBM boundary condition의 `mpmath` numerical sanity-check (표준 identity 검증, 새 claim 도출 아님).
 
 ## Statement
 
