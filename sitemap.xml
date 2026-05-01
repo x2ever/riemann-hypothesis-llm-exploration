@@ -1,0 +1,60 @@
+---
+permalink: /sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- comment -%}
+  Emit one <url> per English page, with hreflang alternates pointing to its
+  Korean counterpart at the same slug. Korean-only pages (no /en/ counterpart)
+  are emitted separately. Top-level pages (/, /en/, /ko/) too.
+{%- endcomment -%}
+
+  <!-- Top-level landing -->
+  <url>
+    <loc>{{ '/' | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ '/en/' | absolute_url }}"/>
+  </url>
+
+  {%- for page in site.html_pages -%}
+    {%- assign url = page.url -%}
+    {%- if url contains '/en/' -%}
+      {%- assign en_url = url -%}
+      {%- assign ko_url = url | replace: '/en/', '/ko/' -%}
+  <url>
+    <loc>{{ en_url | absolute_url }}</loc>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
+    {%- if url contains '/posts/' -%}
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    {%- else -%}
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    {%- endif %}
+    <xhtml:link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="{{ ko_url | absolute_url }}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ en_url | absolute_url }}"/>
+  </url>
+  <url>
+    <loc>{{ ko_url | absolute_url }}</loc>
+    <lastmod>{{ page.last_modified_at | default: page.date | default: site.time | date_to_xmlschema }}</lastmod>
+    {%- if url contains '/posts/' -%}
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    {%- else -%}
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    {%- endif %}
+    <xhtml:link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="{{ ko_url | absolute_url }}"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ en_url | absolute_url }}"/>
+  </url>
+    {%- endif -%}
+  {%- endfor -%}
+</urlset>

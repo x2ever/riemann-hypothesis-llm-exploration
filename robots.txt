@@ -1,0 +1,15 @@
+---
+# Front matter so Jekyll processes Liquid; output saved verbatim.
+permalink: /robots.txt
+sitemap: false
+---
+User-agent: *
+Allow: /
+Disallow: /attempts/
+Disallow: /lemmas/
+Disallow: /learnings/
+Disallow: /papers/
+Disallow: /background/
+Disallow: /tools/
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

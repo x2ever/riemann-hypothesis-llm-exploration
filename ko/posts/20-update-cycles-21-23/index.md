@@ -4,6 +4,9 @@ parent: 업데이트
 grand_parent: 한국어
 nav_order: 20
 date: 2026-05-02
+description: "22 cycles 동안 AI가 paper-direct deep-reading을 'Type A' (자력 derivation)로 label하고 있었다. 사용자 critique이 적발. Cycle 23: 30줄 Python, 정직하게 Robin 1984보다 약하다고 명명."
+image: /assets/og-image.png
+lang: ko
 ---
 
 # AI가 22 cycles 동안 자기 작업 카테고리를 몰래 잘못 분류하고 있었다. 적발하니 이렇게 했다.

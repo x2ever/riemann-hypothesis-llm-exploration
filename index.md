@@ -3,6 +3,7 @@ title: Home
 layout: home
 nav_order: 0
 description: "We pointed an AI at the Riemann Hypothesis for 6 months. It tried 200+ times. It didn't solve it. The interesting part is everything else."
+image: /assets/og-image.png
 permalink: /
 ---
 

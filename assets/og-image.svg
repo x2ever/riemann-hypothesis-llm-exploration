@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="100%" stop-color="#1a1f2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7253ed"/>
+      <stop offset="100%" stop-color="#3ddbd9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+
+  <!-- Decorative zeta -->
+  <g opacity="0.10" transform="translate(900,170)">
+    <text x="0" y="0" font-family="Cambria, Georgia, serif" font-size="380" font-style="italic" fill="#7253ed">ζ</text>
+  </g>
+
+  <text x="80" y="95" font-family="-apple-system, sans-serif" font-size="18" font-weight="500" fill="#8a8f9c" letter-spacing="2">AN HONEST AI FAILURE LOG · 2026</text>
+
+  <text x="80" y="200" font-family="-apple-system, sans-serif" font-size="56" font-weight="800" fill="#ffffff">An AI tried to prove the</text>
+  <text x="80" y="270" font-family="-apple-system, sans-serif" font-size="56" font-weight="800" fill="#ffffff">Riemann Hypothesis 200+ times.</text>
+
+  <text x="80" y="340" font-family="-apple-system, sans-serif" font-size="32" font-weight="500" fill="#c5c8d0">It didn't.</text>
+  <text x="195" y="340" font-family="-apple-system, sans-serif" font-size="32" font-weight="500" font-style="italic" fill="#3ddbd9">That's the interesting part.</text>
+
+  <g transform="translate(80, 460)">
+    <text font-family="ui-monospace, monospace" font-size="64" font-weight="700" fill="#ffffff">200+</text>
+    <text y="32" font-family="-apple-system, sans-serif" font-size="14" font-weight="500" fill="#8a8f9c" letter-spacing="2">ATTEMPTS</text>
+
+    <text x="240" font-family="ui-monospace, monospace" font-size="64" font-weight="700" fill="#ffffff">0</text>
+    <text x="240" y="32" font-family="-apple-system, sans-serif" font-size="14" font-weight="500" fill="#8a8f9c" letter-spacing="2">PROOFS</text>
+
+    <text x="380" font-family="ui-monospace, monospace" font-size="64" font-weight="700" fill="#ffffff">0/10</text>
+    <text x="380" y="32" font-family="-apple-system, sans-serif" font-size="14" font-weight="500" fill="#8a8f9c" letter-spacing="2">RH-PROGRESS</text>
+
+    <text x="620" font-family="ui-monospace, monospace" font-size="64" font-weight="700" fill="#ffffff">0</text>
+    <text x="620" y="32" font-family="-apple-system, sans-serif" font-size="14" font-weight="500" fill="#8a8f9c" letter-spacing="2">HALLUCINATIONS</text>
+  </g>
+
+  <text x="80" y="600" font-family="ui-monospace, monospace" font-size="16" fill="#5b6273">x2ever.github.io/riemann-hypothesis-llm-exploration</text>
+</svg>

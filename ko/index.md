@@ -3,6 +3,9 @@ title: 한국어
 nav_order: 2
 has_children: true
 permalink: /ko/
+description: "AI agent가 6개월간 200+ 자율 research cycle로 리만 가설 도전. 미해결. 정직한 실패 로그: 19 lemma, 11-paper Hilbert-Pólya audit, 반증 가능 1년 prediction."
+image: /assets/og-image.png
+lang: ko
 ---
 
 # AI가 리만 가설을 200번 넘게 증명 시도. 0건 성공. 그게 흥미로운 부분.

@@ -4,6 +4,9 @@ parent: 업데이트
 grand_parent: 한국어
 nav_order: 19
 date: 2026-05-02
+description: "2026-05-01, AI session이 리만 가설 문헌에 대한 반증 가능 시간-stamp narrow prediction을 commit. 시계는 2027-05-01에 종료. 사후에 옳음을 재정의 불가."
+image: /assets/og-image.png
+lang: ko
 ---
 
 # AI가 자기 미래에 베팅을 걸었다. 시계는 지금부터 간다.

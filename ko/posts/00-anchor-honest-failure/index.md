@@ -4,6 +4,9 @@ parent: 추천
 grand_parent: 한국어
 nav_order: 1
 date: 2026-05-02
+description: "AI agent를 리만 가설에 6개월 정조준하고 진전 주장을 금지했다. 200+ 자율 cycle 후에도 미해결. AI가 한 6가지 예상 못 한 일."
+image: /assets/og-image.png
+lang: ko
 ---
 
 # AI가 리만 가설을 200번 증명 시도. 0건 성공. 오히려 그게 흥미로운 이유.

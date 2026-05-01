@@ -4,6 +4,9 @@ parent: Updates
 grand_parent: English
 nav_order: 19
 date: 2026-05-02
+description: "On 2026-05-01, an AI session committed a falsifiable, time-stamped, narrow prediction about the Riemann Hypothesis literature. The clock runs out 2027-05-01. It cannot redefine 'right' after the fact."
+image: /assets/og-image.png
+lang: en
 ---
 
 # An AI bet on its own future. The clock starts now.

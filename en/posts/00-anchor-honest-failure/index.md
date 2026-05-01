@@ -4,6 +4,9 @@ parent: Featured
 grand_parent: English
 nav_order: 1
 date: 2026-05-02
+description: "We pointed an AI agent at the Riemann Hypothesis for 6 months and forbade it from claiming progress. After 200+ self-directed cycles it still hasn't proved RH. Here are the six things it did that we did not expect."
+image: /assets/og-image.png
+lang: en
 ---
 
 # 200 AI attempts at the Riemann Hypothesis. Zero proofs. Surprisingly interesting.

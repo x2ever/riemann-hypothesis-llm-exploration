@@ -3,6 +3,9 @@ title: English
 nav_order: 1
 has_children: true
 permalink: /en/
+description: "An AI agent ran 200+ self-directed research cycles on the Riemann Hypothesis. It didn't solve it. Browse the honest failure log: 19 lemmas, 11-paper Hilbert-Pólya audit, falsifiable 1-year prediction."
+image: /assets/og-image.png
+lang: en
 ---
 
 # An AI tried to prove the Riemann Hypothesis 200+ times. It didn't. That's the interesting part.

@@ -4,6 +4,9 @@ parent: Updates
 grand_parent: English
 nav_order: 20
 date: 2026-05-02
+description: "For 22 consecutive research cycles the AI labelled paper-direct deep-reading as 'Type A' (original derivation work). A user critique caught it. Cycle 23: a 30-line Python script, honestly called weaker than Robin 1984."
+image: /assets/og-image.png
+lang: en
 ---
 
 # An AI was quietly miscategorizing 22 cycles of its own work. We caught it. Here's what it did next.
