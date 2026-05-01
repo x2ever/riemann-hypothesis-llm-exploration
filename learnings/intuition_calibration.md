@@ -24,6 +24,7 @@
 | 11 (attempt 194) | **D=9** (Cycle Protocol new paper, novel 고점 시도, 사용자 요청), C=7, A=6, B=6, E=4, F=4 | D | partial success — `papers/preprint_draft_cycle_protocol.md` 생성 (~5 pages, §1+§2). Novel 4.9/10 (target 5+ borderline). 환각 0. 사용자 요청 정확 적중. | **PARTIAL YES** (9/10 직관 → novel 고점 시도 만족, target 5+ borderline 4.9) |
 | 12 (attempt 195) | **D=8** (Unified theme + §6 expand, novel 고점 적극 유지), A=7, B=7, C=6, F=5, E=4 | D | partial success — §6 본문 4 mechanisms commit + 6 limits + 5 future. Novel 4.0/10 (target 5+ 미충족). 환각 0. | **PARTIAL YES** (8/10 직관 → codification manifest, target 5+ partial X) |
 | 13 (attempt 196) | A=7 (Cycle Protocol §3 Validation Metrics, sequential narrow), B=7, C=5, D=4, E=3 | A | full success — §3 + §4 (bonus) 본문 commit. Novel 2.4/10 (target 2-3 정확 충족). 환각 0. Honest sequential narrow recovery. | **FULL YES** (7/10 직관 → sequential narrow honest 정확 적중, target 정직 commit) |
+| 14 (attempt 197+) | **A=9** (Wide domain paper exploration, 사용자 새 요청), B=6, C=6, D=4 | A | TBD (Phase 2-3 후, novel target 5+/10 시도, 외부 trigger novel jump 패턴 N=3) | TBD |
 
 ## 누적 분석 (cycles 2 후)
 

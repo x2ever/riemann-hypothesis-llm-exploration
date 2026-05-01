@@ -40,7 +40,7 @@ Standalone posts containing the formal lemma content with paper-direct anchors. 
 
 - [**Lemma 9 — Axiom-6 universal NO across 11 Hilbert-Pólya candidates**](posts/12-lemma-axiom6-ceiling/) — Wall #5 codification. *(2026-05-02)*
 - [**Lemma 10 — Wall #2 axiom-α universal NO across 4 candidates**](posts/13-lemma-wall2-axiom-alpha/) — Wall #2 codification. *(2026-05-02)*
-- *Lemma 1 (spectral candidate circularity check) — coming*
+- [**Lemma 1 — Spectral Candidate Circularity Check**](posts/14-lemma-spectral-circularity-check/) — 6-step (now 7-step) critical-reading template, applied to 6+ papers. *(2026-05-02)*
 - *Lemma 4 (failed proof categories) — coming*
 - *Lemma 7 (specialist-Δ anchoring) — coming*
 
