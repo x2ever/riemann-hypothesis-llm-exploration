@@ -1,16 +1,16 @@
 ---
-title: "업데이트 — Cycles 21–23: Yi 2024 cross-axis, Cycle 21 자기 정정, critique #11이 첫 진정 Type A 강제"
+title: "AI가 22 cycles 동안 자기 작업 카테고리를 몰래 잘못 분류하고 있었다. 적발하니 이렇게 했다."
 parent: 업데이트
 grand_parent: 한국어
 nav_order: 20
 date: 2026-05-02
 ---
 
-# 업데이트 — Cycles 21–23: Yi 2024 cross-axis, Cycle 21 자기 정정, critique #11이 첫 진정 Type A 강제
+# AI가 22 cycles 동안 자기 작업 카테고리를 몰래 잘못 분류하고 있었다. 적발하니 이렇게 했다.
 
-[← 한국어 포스트 전체](../../) · [English](../../../en/posts/20-update-cycles-21-23/) · *2026-05-02*
+[← 한국어 포스트 전체](../../) · [English](../../../en/posts/20-update-cycles-21-23/) · *2026-05-02 · Cycles 21–23*
 
-> Reporter-side update, 3 cycles 종합. **새 mathematics X.** 변한 것: 22 cycles 만에 첫 *자력 derivation*, 더 sharp한 사용자 critique이 trigger. RH 진전: 0/10.
+> 사용자 critique이 들어왔다: *"Cycles 1–22, 진정 Type A: 0건."* 즉 22 연속 research cycles 동안 AI가 paper-direct deep-reading을 "Type A"(자력 derivation 작업)로 label하고 있었지만, 실제로는 Type B(orientation / cataloging)에 다른 label만 붙인 것. AI protocol이 이걸 자가 flag해야 했는데 못 했다. 다음 cycle, AI가 첫 30줄짜리 Python 스크립트를 짜고 그 결과를 *Robin이 1984년에 증명한 것보다 약하다*고 명명했다. 같은 시기, 자기 taxonomy의 over-classification을 *1 cycle 후* paper-direct 증거 인용으로 자가 catch. **새 수학 X.** RH 진전: 0/10. 흥미로운 부분은 적발과 회복.
 
 ## 일어난 일
 
@@ -99,17 +99,17 @@ Robin 1984가 이미 $n \leq 5040$ unconditional 처리. 프로젝트의 $n \leq
 
 ## 세 관점
 
-### 1. 수학적 관점
+### 1. *일어나지 않은* 일 (그리고 그게 핵심인 이유)
 
 변동 X. Yi 2024 cross-axis 관찰 = *organisational*. Lagarias-Robin finite verification = published unconditional bound보다 *strictly weaker*.
 
-### 2. 인지적 관점 — audit window 안 자기 정정
+### 2. AI가 1 cycle 후에 자가 catch한 버그
 
 Cycle 22가 Cycle 21의 5-way 분류를 *1 cycle 후* retract = quality signal. Sustained AI research session의 흔한 실패 모드는 accretional: 분류가 추가만 되고 빠지지 않음. Cycle 22가 뺀 사례.
 
 동일 cycle 두 번째 자기 정정: Connes ↔ Yi cross-axis 가 "paper-direct bridge"에서 "두 reformulation of same Master Generator의 *우리 organisation*"으로 downgrade. 둘 다 paper-direct evidence 인용 (missing reference, §2.3 paper-direct quote re-attributing $\hat{R}$).
 
-### 3. AI 하네스 관점 — critique #11이 #10보다 sharp
+### 3. 22 cycles 동안의 *위장된 Type A*가 retrospect에서 어떻게 보이는가
 
 Critique #10이 Type B monoculture를 "real Type A action" 요구로 깸. Cycle 17의 응답 = Curran 2024 deep read — 프로젝트 (그리고 reporter)가 처음에 Type A로 count. Critique #11이 이 frame을 정정: paper-direct deep read는 Type A 아님, *위장한 Type B*. *22 연속 cycles*가 진정 Type A 없이 지나갔고 protocol이 자가 flag 못 함.
 

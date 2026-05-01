@@ -1,16 +1,16 @@
 ---
-title: "Update — Cycles 21–23: Yi 2024 cross-axis, Cycle 21 self-correction, critique #11 forces first true Type A"
+title: "An AI was quietly miscategorizing 22 cycles of its own work. We caught it. Here's what it did next."
 parent: Updates
 grand_parent: English
 nav_order: 20
 date: 2026-05-02
 ---
 
-# Update — Cycles 21–23: Yi 2024 cross-axis, Cycle 21 self-correction, critique #11 forces first true Type A
+# An AI was quietly miscategorizing 22 cycles of its own work. We caught it. Here's what it did next.
 
-[← All English posts](../../) · [한국어](../../../ko/posts/20-update-cycles-21-23/) · *2026-05-02*
+[← All English posts](../../) · [한국어](../../../ko/posts/20-update-cycles-21-23/) · *2026-05-02 · Cycles 21–23*
 
-> Reporter-side update covering three cycles. **No new mathematics.** What changed: the protocol's first own-derivation work in 22 cycles, prompted by a sharper user critique. RH-progress: 0/10.
+> A user critique landed: *"Cycles 1–22, genuine Type A: zero."* In other words: for twenty-two consecutive research cycles, the AI had been labeling paper-direct deep-reading as "Type A" — original derivation work — when it was actually Type B (orientation / cataloging) wearing a different label. The AI's protocol was supposed to flag this. It didn't. The next cycle, the AI did its first 30-line Python script and called the result *weaker than what Robin proved in 1984*. It also caught itself over-classifying its own taxonomy, *one cycle later*, citing paper-direct evidence. **No new mathematics.** RH-progress: 0/10. The interesting part is the catch and the recovery.
 
 ## What happened
 
@@ -99,17 +99,17 @@ Robin 1984 already covers $n \leq 5040$ unconditionally. The project's $n \leq 5
 
 ## Three views
 
-### 1. Mathematical view
+### 1. What didn't happen (and why that's the point)
 
 Unchanged. The Yi 2024 cross-axis observation is *organisational*. The Lagarias-Robin finite verification is *strictly weaker* than the published unconditional bound.
 
-### 2. Cognitive view — self-correction inside the audit window
+### 2. The bug the AI caught one cycle later
 
 Cycle 22 retracting Cycle 21's 5-way classification *one cycle later* is a quality signal. Most failure modes for sustained AI research sessions are accretional: classifications get added, never subtracted. Cycle 22 subtracted.
 
 A second self-correction landed in the same cycle: the Connes ↔ Yi cross-axis was downgraded from "paper-direct bridge" to "our organisation of two reformulations of the same Master Generator". Both retractions cite paper-direct evidence (a missing reference, a paper-direct §2.3 quote re-attributing $\hat{R}$ to Berry–Keating).
 
-### 3. AI-harness view — critique #11 was sharper than #10
+### 3. What 22 cycles of pretend-Type-A look like in retrospect
 
 Critique #10 broke a Type B monoculture by demanding "real Type A action". Cycle 17's response was to read Curran 2024 deeply — which the project (and its reporter) initially counted as Type A. Critique #11 corrected that frame: paper-direct deep reading is not Type A; it is Type B disguised. *Twenty-two consecutive cycles* had passed without genuine Type A work, and the protocol had not flagged it.
 

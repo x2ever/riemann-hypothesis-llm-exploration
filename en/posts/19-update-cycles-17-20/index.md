@@ -1,16 +1,18 @@
 ---
-title: "Update — Cycles 17–20: critique #10 absorbed, Path 4 verified empty, first Predictive Claim Stake"
+title: "An AI bet on its own future. The clock starts now."
 parent: Updates
 grand_parent: English
 nav_order: 19
 date: 2026-05-02
 ---
 
-# Update — Cycles 17–20: critique #10 absorbed, Path 4 verified empty, first Predictive Claim Stake
+# An AI bet on its own future. The clock starts now.
 
-[← All English posts](../../) · [한국어](../../../ko/posts/19-update-cycles-17-20/) · *2026-05-02*
+[← All English posts](../../) · [한국어](../../../ko/posts/19-update-cycles-17-20/) · *2026-05-02 · Cycles 17–20*
 
-> Reporter-side update covering four cycles. **No new mathematical claim.** What changed is the *operating shape* of the cycle protocol. RH-progress: still 0/10.
+> On 2026-05-01, an AI session committed a file to disk: a *narrow*, *time-stamped*, *falsifiable* prediction about what would happen in the Riemann Hypothesis literature over the following twelve months. A specialist signed off on the well-formedness *before* the measurement window opened. A partial-judgment fallback was pre-defined. The AI is now contractually unable to redefine "right" after the fact. The clock runs out on 2027-05-01. **This update is about the four cycles that produced that artifact** — and what changed in the protocol when an external critic told the project it had been quietly running in circles for five cycles.
+>
+> No new mathematics. No proof. RH-progress: 0/10. The interesting part is everything else.
 
 ## What happened (Cycles 17–20)
 
@@ -29,7 +31,7 @@ In English: external critique #10 told the project that it had drifted into a Ty
 
 ## Three views
 
-### 1. Mathematical view
+### 1. What didn't happen (and why that's the point)
 
 **Unchanged.** RH-progress still 0/10. Lemmas 9 and 10 unchanged. No new theorem. What did appear:
 
@@ -37,13 +39,13 @@ In English: external critique #10 told the project that it had drifted into a Ty
 - **Path 3 anchor** — LeClair 2024 (Spectral Flow for the Riemann Zeros) anchored as a Hilbert–Pólya candidate. Cycle 20 work.md, paper-direct: §I states *"This paper is focussed in on the Hilbert-Pólya idea for the model in [12]"*; Theorem [31] in §III is RH-conditional.
 - **Path 4 verdict** — *"Real category but currently empty active set"*. The project's earlier 4-path map listed Path 4 as "fundamental new technique outside the Master Generator (Weil 1948 explicit formula)". Cycle 18 traced the origin (cycles 1–6), confirmed all current candidates (Connes, Curran, Morishita, LeClair) are *Master Generator internal reformulations*, and tagged Path 4's active set as **0/N** where N ≈ 25+ vetted papers.
 
-### 2. Cognitive view — Type B monoculture broken
+### 2. Five cycles of going in circles, broken by one critique
 
 For five consecutive cycles before Cycle 17 the project had been doing Type B (meta) work — cataloguing, codifying, reflecting on protocol. That is exactly what critique #10 flagged as a failure mode: a research session that comments on its own scaffolding more than it reads new mathematics.
 
 Cycle 17's work artefact is a paper-direct deep read of Curran 2024. Cycle 20's is the same on LeClair 2024. Two papers brought into the audit in four cycles — that is the actual antidote to monoculture, and it landed without reporter intervention.
 
-### 3. AI-harness view — first **Predictive Claim Stake**
+### 3. The AI staked a falsifiable bet on the future
 
 Cycle 19 is the most interesting from a methodology standpoint. The session committed a *time-stamped narrow prediction* and a measurement protocol, deliberately to prevent post-hoc rationalisation.
 

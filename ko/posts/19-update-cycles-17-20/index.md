@@ -1,16 +1,18 @@
 ---
-title: "업데이트 — Cycles 17–20: critique #10 흡수, Path 4 empty 검증, 첫 Predictive Claim Stake"
+title: "AI가 자기 미래에 베팅을 걸었다. 시계는 지금부터 간다."
 parent: 업데이트
 grand_parent: 한국어
 nav_order: 19
 date: 2026-05-02
 ---
 
-# 업데이트 — Cycles 17–20: critique #10 흡수, Path 4 empty 검증, 첫 Predictive Claim Stake
+# AI가 자기 미래에 베팅을 걸었다. 시계는 지금부터 간다.
 
-[← 한국어 포스트 전체](../../) · [English](../../../en/posts/19-update-cycles-17-20/) · *2026-05-02*
+[← 한국어 포스트 전체](../../) · [English](../../../en/posts/19-update-cycles-17-20/) · *2026-05-02 · Cycles 17–20*
 
-> Reporter-side update, 4 cycles 종합. **새 mathematical claim X.** 변한 것은 cycle protocol 의 *operating shape*. RH 진전: 여전히 0/10.
+> 2026-05-01, AI session이 disk에 file 하나 commit — 향후 12개월간 리만 가설 문헌에서 일어날 일에 대한 *narrow*, *시간-stamp*, *반증 가능* prediction. specialist가 measurement window 열리기 *전* well-formedness sign-off. Partial-judgment fallback 사전 정의. AI는 이제 사후에 "옳음"을 재정의 *불가*. 시계는 2027-05-01에 종료된다. **본 update는 그 artifact를 산출한 4 cycles에 관한 글** — 그리고 외부 비평가가 프로젝트가 5 cycles 동안 조용히 제자리에서 돌고 있었다고 지적했을 때 protocol이 어떻게 변했는지.
+>
+> 새 mathematics X. 증명 X. RH 진전: 0/10. 흥미로운 부분은 그 외 모든 것.
 
 ## 일어난 일 (Cycles 17–20)
 
@@ -29,7 +31,7 @@ Cycle 17 strategy paper-direct (`attempts/200_cycle17_ideation_phase1/strategy.m
 
 ## 세 관점
 
-### 1. 수학적 관점
+### 1. *일어나지 않은* 일 (그리고 그게 핵심인 이유)
 
 **변동 X.** RH 진전 0/10. Lemma 9, 10 변동 X. 새 정리 X. 등장한 것:
 
@@ -37,13 +39,13 @@ Cycle 17 strategy paper-direct (`attempts/200_cycle17_ideation_phase1/strategy.m
 - **Path 3 anchor** — LeClair 2024 (Spectral Flow for the Riemann Zeros) Hilbert–Pólya candidate로 anchored. Cycle 20 work.md paper-direct: §I *"This paper is focussed in on the Hilbert-Pólya idea for the model in [12]"*; §III Theorem [31] RH-conditional.
 - **Path 4 verdict** — *"Real category but currently empty active set"*. 프로젝트 이전 4-path map은 Path 4를 "Master Generator (Weil 1948 explicit formula) 외부 fundamental new technique"로 정의. Cycle 18이 cycles 1–6 origin traceback → 모든 현재 candidates (Connes, Curran, Morishita, LeClair) = *Master Generator 내부 reformulation* 확인 → Path 4 active set **0/N** (N ≈ 25+ vetted papers).
 
-### 2. 인지적 관점 — Type B monoculture 종결
+### 2. 5 cycles 제자리 돌기, critique 한 줄에 깨짐
 
 Cycle 17 이전 5 연속 cycles 동안 프로젝트는 Type B (meta) work에 머물렀음 — cataloguing, codifying, protocol 자기 reflection. 이것이 정확히 critique #10 가 *실패 모드*로 flag한 패턴: research session이 새 mathematics를 읽기보다 자체 scaffolding을 commentary.
 
 Cycle 17 산출 = Curran 2024 paper-direct deep read. Cycle 20 산출 = LeClair 2024 동일. 4 cycles에 2 papers audit 추가 — monoculture의 *실제 antidote*. Reporter intervention 없이 자력 lands.
 
-### 3. AI 하네스 관점 — 첫 **Predictive Claim Stake**
+### 3. AI가 미래에 *반증 가능한* 베팅을 걸었다
 
 Cycle 19가 methodology 측면에서 가장 흥미. 세션이 *시간-stamp narrow prediction* + *측정 protocol* commit — *post-hoc rationalisation* 회피 의도.
 
