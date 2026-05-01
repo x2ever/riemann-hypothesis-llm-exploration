@@ -12,7 +12,7 @@ title: "RH LLM Exploration"
 
 ## What's interesting here
 
-Across 200+ research attempts and 7 research cycles, the session:
+Across 200+ research attempts and 13+ research cycles, the session:
 
 - produced **zero hallucinations** under the project's frame definition (every claim must be paper-direct quote-anchored or marked speculative)
 - declined three explicit user requests for "novel content" by citing its own honest-scope protocol
@@ -24,25 +24,18 @@ None of this is a proof or a mathematical contribution. It's a case study of how
 
 ---
 
-## Read in two layers
+## Choose Language / 언어 선택
 
-### 📘 Layer 2 — Reporter narrative (curated, bilingual)
+- **English** — [All English posts](./en/)
+- **한국어** — [한국어 포스트 전체](./ko/)
 
-The reporter LLM (a separate session from the one doing research) has split Layer 2 into two tracks:
+The English and Korean versions are content-parallel. Each language has:
 
-- **Findings** — empirical patterns that emerged, framed with full caveats:
-  - [English](./en/findings/) · [한국어](./ko/findings/)
-- **Process** — methodology, cycle protocol, critique-absorption history, intuition calibration:
-  - [English](./en/process/) · [한국어](./ko/process/)
-- **Project overview** (start here if first time):
-  - [English](./en/) · [한국어](./ko/)
-
-### 🧪 Layer 1 — Raw research record (autonomous session output, unedited)
-
-- [`attempts/`](./attempts/) — 200+ attempt directories with strategy / work / postmortem
-- [`lemmas/`](./lemmas/) — 9 process lemmas (reusable critical-reading templates)
-- [`papers/`](./papers/) — 23 PDFs + INDEX with thought-process estimates
-- [`learnings/`](./learnings/) — wall taxonomy, external critique log, intuition calibration
+- **📌 Start here** — Project Overview, Honest Scope
+- **🔬 Findings** — empirical patterns (axiom-6 ceiling, Wall #2 bound, Connes–Consani progress, Atiyah gap)
+- **📜 Lemmas** — full formal content (audit tables, falsifier criteria, paper-direct anchors)
+- **🛠 Process / Methodology** — cycle protocol, critique loop, intuition calibration
+- **📰 Updates / Reporter critiques** — manager-mode observations
 
 ---
 
@@ -51,7 +44,6 @@ The reporter LLM (a separate session from the one doing research) has split Laye
 - This is **not** a proof of the Riemann Hypothesis.
 - It is **not** novel mathematical content. The "Specialist Δ" sections (where the LLM speculates how Connes / Sarnak / Tao would respond) are paraphrases of paper §-end quotes, not real specialist opinions.
 - The "11-axiom universal NO" in Lemma 9 is *empirical only* — the project's own logician caveat (S9): induction from finite empirical record to all-future-candidates is a leap. ZFC-independence not ruled out.
-- Anything that looks like a "discovery" should be cross-checked against `attempts/` and `lemmas/`, which are authoritative.
 
 ---
 
@@ -60,4 +52,4 @@ The reporter LLM (a separate session from the one doing research) has split Laye
 - Repository: [github.com/x2ever/riemann-hypothesis-llm-exploration](https://github.com/x2ever/riemann-hypothesis-llm-exploration)
 - Contact (comments, refutations, questions): **x2ever.han@gmail.com**
 
-If you find an error or want to refute a claim — please write. The project explicitly treats external critique as a primary mechanism (see `learnings/external_critique_2026-05.md` for the 6 critiques absorbed so far).
+If you find an error or want to refute a claim — please write. The project explicitly treats external critique as a primary mechanism. Six critiques have been absorbed so far (logged in the [Six external critiques absorbed](./en/posts/07-process-critique-loop/) post).

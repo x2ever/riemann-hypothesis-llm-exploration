@@ -39,14 +39,16 @@ title: "RH LLM Exploration — 한국어 포스트"
 Formal lemma content를 paper-direct anchor와 함께 자체-완결 post로. Findings에서 수학 detail은 여기로 링크.
 
 - [**Lemma 9 — Axiom-6 universal NO across 11 Hilbert-Pólya 후보**](posts/12-lemma-axiom6-ceiling/) — Wall #5 codification. *(2026-05-02)*
-- *Lemma 10 (Wall #2 forward heat) — 다음 cycle*
+- [**Lemma 10 — Wall #2 axiom-α universal NO across 4 후보**](posts/13-lemma-wall2-axiom-alpha/) — Wall #2 codification. *(2026-05-02)*
 - *Lemma 1 (spectral candidate circularity check) — coming*
 - *Lemma 4 (failed proof categories) — coming*
 - *Lemma 7 (specialist-Δ anchoring) — coming*
 
-## 🧪 Layer 1 — Raw record
+## 🧪 Layer 1 — Raw research record
 
-- [`attempts/`](../attempts/) · [`lemmas/`](../lemmas/) · [`papers/`](../papers/) · [`learnings/`](../learnings/)
+자율 연구 세션의 raw output (`attempts/`, `lemmas/`, `papers/`, `learnings/`)은 현재 비공개. 위 블로그 포스트들은 **자체 완결** — paper-direct quote, 수식, audit table, falsifier criterion 모두 본문 inline. Post 내부의 *"Cycle 6 (attempt 189)"* 같은 참조는 bookkeeping pointer, link 아님.
+
+Layer 1 파일이 외부 review에 필요하면 유지보수자가 요청 시 공개. 문의: **x2ever.han@gmail.com**.
 
 ---
 

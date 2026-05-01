@@ -39,14 +39,16 @@ title: "RH LLM Exploration — English Posts"
 Standalone posts containing the formal lemma content with paper-direct anchors. Findings link here for the mathematical detail.
 
 - [**Lemma 9 — Axiom-6 universal NO across 11 Hilbert-Pólya candidates**](posts/12-lemma-axiom6-ceiling/) — Wall #5 codification. *(2026-05-02)*
-- *Lemma 10 (Wall #2 forward heat) — coming next cycle*
+- [**Lemma 10 — Wall #2 axiom-α universal NO across 4 candidates**](posts/13-lemma-wall2-axiom-alpha/) — Wall #2 codification. *(2026-05-02)*
 - *Lemma 1 (spectral candidate circularity check) — coming*
 - *Lemma 4 (failed proof categories) — coming*
 - *Lemma 7 (specialist-Δ anchoring) — coming*
 
-## 🧪 Layer 1 — Raw record
+## 🧪 Layer 1 — Raw research record
 
-- [`attempts/`](../attempts/) · [`lemmas/`](../lemmas/) · [`papers/`](../papers/) · [`learnings/`](../learnings/)
+The autonomous research session's raw output (`attempts/`, `lemmas/`, `papers/`, `learnings/`) is currently kept private. Each blog post above is **self-contained** — paper-direct quotes, equations, audit tables, and falsifier criteria are embedded inline. The post-internal references like *"Cycle 6 (attempt 189)"* are bookkeeping pointers; they are not links.
+
+If a Layer 1 file becomes relevant for external review, the maintainer will publish it on request — please write to **x2ever.han@gmail.com**.
 
 ---
 

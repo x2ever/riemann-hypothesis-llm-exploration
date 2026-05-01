@@ -211,9 +211,103 @@ We list the limits of the protocol as observed in cycles 1-11:
 - **Larger N hallucination study**: extend the corpus to N=20+ cycles and measure hallucination rate quantitatively.
 - **External critique injection mechanism**: cycle 6 (critique #9) and cycle 11 (user novel-高점 request) were *exogenous* events. A protocol-level mechanism for *generating* such critiques (e.g., adversarial agent role) would internalize the novel-jump trigger.
 
-## (Sections 3-5 deferred to subsequent cycles)
+## 3. Validation Metrics
 
-Section 3 (Validation Metrics — intuition calibration, pivot rate, novel content trend detail), Section 4 (Critique Absorption Chain #6-#9 detailed), Section 5 (Externalization 5-Stage Progression detail) will be expanded in cycles 13-14. The present paper's §1, §2, §6 already constitute a self-contained methodological essay.
+This section presents the empirical metrics observed across the 12 validated cycles. The metrics are *single-corpus* and *single-LLM* (cf. §6.5 limits); we report them as *empirical observations*, not as universal validation.
+
+### 3.1 Intuition Calibration
+
+In Phase 1 of each cycle, candidate hypotheses receive a *first-impression intuition score* (1-10 scale) committed before Phase 2 execution. After Phase 3, the result is classified as FULL YES / PARTIAL YES / NO relative to the score.
+
+**Cumulative results (cycles 1-12):**
+
+| Score range | Count | Result distribution |
+|---|---|---|
+| 9/10 | 3 | 1 FULL + 2 PARTIAL |
+| 8/10 | 9 | 4 FULL + 5 PARTIAL |
+| 7/10 | 0 | (untested) |
+| 5-6/10 | 0 | (untested) |
+| 3-4/10 | 0 | (untested) |
+
+**Observation.** The 8-9/10 score zone achieves a 12/12 hit rate (5 FULL + 7 PARTIAL — every cycle's selected hypothesis received at least PARTIAL YES). No cycle's selected hypothesis received NO.
+
+**Limitation.** Lower-score-zone hypotheses (3-7/10) were *never selected* in cycles 1-12 (the protocol selects the highest-intuition candidate). Hence we have no calibration data for those zones. The 12/12 hit rate at 8-9/10 may reflect (a) genuine calibration accuracy, (b) selection bias (only the highest-intuition candidate is tested), or (c) overly broad PARTIAL YES classification.
+
+### 3.2 Pivot Rate
+
+A *pivot* occurs when Phase 2 execution forces a substantive revision of the Phase 1 hypothesis (e.g., axiom 7+11 → axiom 6 in cycle 1, codification → active program identification in cycle 3, unification gap partial sharpen in cycle 4). A *stable* cycle is one where the original hypothesis survives Phase 2 with at most marginal refinement.
+
+**Cumulative results (cycles 1-12):**
+- Pivot cycles: 1, 3, 4 (count = 3).
+- Stable cycles: 2, 5-12 (count = 9).
+- **Pivot rate: 3/12 = 25%.**
+
+**Observation.** The pivot rate is non-trivial (≠ 0% all-stable nor 100% all-pivot). Cycles 1-4 had higher pivot frequency (3/4 = 75%); cycles 5-12 are uniformly stable (0/8 = 0%). The shift coincides with the externalization phase (cycles 6-12) where outputs are paper draft sections (less amenable to mid-cycle pivot than internal lemma audits).
+
+**Limitation.** Single corpus. Other research efforts may exhibit different pivot rates depending on problem difficulty and external critique frequency.
+
+### 3.3 Novel Content Trend
+
+In Phase 3 of each cycle, the agent provides a *novel content N/10 honest evaluation* with breakdown.
+
+**Cumulative trajectory (cycles 1-12, aggregated novel scores):**
+
+| Cycle | Novel | Notes |
+|---|---|---|
+| 1 | 1.5 | Codification (Wall #5 axiom 6 ceiling) |
+| 2 | 1.5 | Codification (Wall #2 axiom α ceiling) |
+| 3 | 2.0-2.5 | Active program identification |
+| 4 | 2.5-3.0 | Path 2 active continuation + still-open H¹ |
+| 5 | 3.0-3.7 | Path 1 direct progress (Theorem 1 + bridging) |
+| 6 | **6.7 (peak)** | Cycle 1 retroactive + outline finalize (critique #9 trigger) |
+| 7 | 2.6 | Artifact first commit |
+| 8 | 1.4 | Artifact polish |
+| 9 | 1.9 | Substance commit |
+| 10 | 2.2 | Aggregate result + discipline |
+| 11 | **4.9 (partial peak)** | Cycle protocol new paper (user novel-高점 request) |
+| 12 | 4.0 | §6 4 mechanisms unified codification |
+
+**Observation.** Two distinct *novel jump* events (cycle 6 = 6.7, cycle 11 = 4.9) above the externalization-cycle baseline (1.4-3.7). Both jumps coincided with *external critique absorption* (cf. §6.2). Without external trigger, novel content stabilizes at 4-5 ceiling (cycles 11+12 partial pattern).
+
+**Limitation.** Novel score is a *self-evaluation* by the agent in Phase 3. While the protocol enforces a discipline of *paper-direct anchor* and *non-claim disclosure*, the score remains agent-internal and is not externally validated.
+
+### 3.4 Externalization Stage Timeline
+
+The 5-stage externalization progression of §6.1 occurred over cycles 6-10:
+
+| Cycle | Stage | Output |
+|---|---|---|
+| 6 | Outline | preprint outline finalized (axiom 6 ceiling) |
+| 7 | Artifact first commit | Sections 1-2 of axiom 6 ceiling preprint (~3 pages) |
+| 8 | Polish | §1.1 walls explicit + §2.0 strict union formalization |
+| 9 | Substance | Section 3 audit table (~121 cells + 11 anchors) |
+| 10 | Aggregate result + discipline | Section 4 (Theorem + Catalog 47+ + 4-point discipline) |
+
+**Observation.** Each stage occupied a single cycle and reduced (not increased) the open work for the next stage. The progression is *monotone* in the sense that cycle N's output strictly extends cycle N-1's output.
+
+**Single-turn cycles (7-12).** Cycles 7-12 (6 consecutive cycles) executed Phase 2 in a single turn. The single-turn pattern correlates with the *narrow externalization scope* (one section or one polish task per cycle).
+
+**Limitation.** Single-paper progression (axiom 6 ceiling preprint). Cycle 11's *new paper draft* (cycle protocol paper) initiated a parallel progression which has not yet completed (current paper has §1, §2, §6 only; §3 [present section] just added; §4-§5 deferred).
+
+## 4. Critique Absorption Chain
+
+The protocol absorbed four external critiques across cycles 0-12, each traceable to a specific protocol upgrade. The critique numbering follows the project's internal `learnings/external_critique_2026-05.md` log.
+
+| # | Critique (paraphrased) | Cycle absorbed | Protocol upgrade |
+|---|---|---|---|
+| 5 | NOVEL spree (paper-external speculation in unbounded sequence) | Pre-cycle | NOVEL Quota: paper-external direction = 1-sequence only; first paper-direct rediscovery → terminate sequence. |
+| 6 | Pre-batched plan (planning N future steps) | Cycle 0 → 1 | Lazy planning: each cycle's next action decided after current cycle's postmortem; no `mkdir attempts/NNN-MMM` for 5+ pre-created folders. |
+| 7 | Heartbeat / cycle protocol absent (1 fire = 1 attempt stamp) | Cycle 1+ | 4-Phase Sustained Research Cycle (§2). Stop-hook event-driven mechanism. |
+| 8 | Codification machine (unbounded codification of negative observations) | Cycle 3 | Active program identification mandate; lemma file *upgrade* preferred to lemma file *creation*; positive direction sub-direction discipline. |
+| 9 | Publishable artifact externalization (internal accumulation only) | Cycle 6 | External review-able artifact mandate; preprint outline → artifact → polish → substance → aggregate progression (§6.1). |
+
+**Observation.** Each critique absorption produced a measurable protocol change: NOVEL Quota counts as a bounded-search discipline, lazy planning eliminates premature batching, 4-Phase cycle replaces ad-hoc stamping, codification-machine mandate produces the *path 2 active program* axis (cycles 3-4), publishable mandate produces *two paper drafts* (cycles 6-12).
+
+**Limitation.** All five critiques originated from a *single external source* (the project user). Multi-source critique absorption is unverified.
+
+## (Section 5 deferred to subsequent cycles)
+
+Section 5 (Externalization 5-Stage Progression detail — beyond §6.1's summary) deferred to cycle 14+.
 
 ---
 
