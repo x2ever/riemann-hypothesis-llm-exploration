@@ -28,6 +28,9 @@ permalink: /ko/
 - **Lemma 4** — Failed Proof Categories
 - **Lemma 7** — Specialist-Δ Anchoring Protocol
 
+## 🔢 Numerical evidence
+- **Numerical evidence** — paper-direct 수식 (Voros, Lagarias σ_j, Mertens, Wigner, Hilbert-Pólya) + mpmath data tables inline
+
 ## 🛠 프로세스 / 방법론
 - **4-Phase Research Cycle Protocol**
 - **외부 critique 6회 흡수**

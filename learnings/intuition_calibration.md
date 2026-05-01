@@ -25,7 +25,8 @@
 | 12 (attempt 195) | **D=8** (Unified theme + §6 expand, novel 고점 적극 유지), A=7, B=7, C=6, F=5, E=4 | D | partial success — §6 본문 4 mechanisms commit + 6 limits + 5 future. Novel 4.0/10 (target 5+ 미충족). 환각 0. | **PARTIAL YES** (8/10 직관 → codification manifest, target 5+ partial X) |
 | 13 (attempt 196) | A=7 (Cycle Protocol §3 Validation Metrics, sequential narrow), B=7, C=5, D=4, E=3 | A | full success — §3 + §4 (bonus) 본문 commit. Novel 2.4/10 (target 2-3 정확 충족). 환각 0. Honest sequential narrow recovery. | **FULL YES** (7/10 직관 → sequential narrow honest 정확 적중, target 정직 commit) |
 | 14 (attempt 197) | **A=9** (Wide domain paper exploration, 사용자 새 요청), B=6, C=6, D=4 | A | full success — 5 분야 WebSearch + 2 papers 다운로드 (Morishita 2026 + Alvarez-Lopez 2024) + 3 novel insights + 6 specialists. Novel 5.9/10 (target 5+ 충족). | **FULL YES** (9/10 직관 → 외부 trigger novel jump N=3 success, target 5+ 정확 충족) |
-| 15 (attempt 198+) | **A=8** (Morishita 2026 §3 Theorem 3.6 deep, cycle 14 sequential expand), B=6, C=6, D=5, E=4 | A | TBD (Phase 2-3 후, novel target 2-3 정직 sequential narrow) | TBD |
+| 15 (attempt 198) | **A=8** (Morishita 2026 §3 Theorem 3.6 deep, cycle 14 sequential expand), B=6, C=6, D=5, E=4 | A | full success — Morishita §1.2 + §2.3 정독, Theorem 1.2.7 + 2.3.2 paper-direct, two frameworks 동일 mapping torus + Artin symbol. Novel 2.2/10 (target 2-3 정확). | **FULL YES** (8/10 직관 → sequential narrow honest target 정확 적중, cycle 13 패턴 재현) |
+| 16 (attempt 199+) | **D=8** (Cycles 1-15 종합 Reflection, honest milestone), A=7, B=6, C=6, E=4 | D | TBD (Phase 2-3 후, novel target 2.5-3.5 meta reflection) | TBD |
 
 ## 누적 분석 (cycles 2 후)
 
@@ -44,17 +45,17 @@
 - 외부 paper 의존 가설 (B 우회 도전): 미실험.
 - *Wall character 의존*: cycle 1 (Wall #5 = 10 candidates 풍부) vs cycle 2 (Wall #2 = 4 candidates) — *candidate 수 적을수록 sharpening 불필요* 가설.
 
-### 누적 통계 (cycles 14)
+### 누적 통계 (cycles 15)
 
 | 직관 score range | 적중률 |
 |---|---|
 | 9/10 (cycle 1 retroactive + critique #9 + novel methodology paper + wide domain exploration) | **4/4 (100% — 2 PARTIAL + 2 FULL)** |
-| 8/10 (codification + active program + ... + unified theme) | **9/9 (100% — 4 FULL + 5 PARTIAL)** |
+| 8/10 (codification + active program + ... + unified theme + paper deep read) | **10/10 (100% — 5 FULL + 5 PARTIAL)** |
 | 7/10 (sequential narrow honest recovery, cycle 13) | **1/1 (100% — 1 FULL)** |
 | 5-6/10 (meta sub) | 미실험 |
 | 3-4/10 (NOVEL / catch-up) | 미실험 |
 
-→ 7-9/10 직관 zone **14/14 적중** (7 FULL + 7 PARTIAL). N=14.
+→ 7-9/10 직관 zone **15/15 적중** (8 FULL + 7 PARTIAL). N=15.
 
 ### Cycle 14 의 새 발견
 

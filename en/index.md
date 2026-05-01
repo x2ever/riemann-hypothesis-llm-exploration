@@ -28,6 +28,9 @@ Browse posts using the sidebar (left). The English section contains:
 - **Lemma 4** — Failed Proof Categories
 - **Lemma 7** — Specialist-Δ Anchoring Protocol
 
+## 🔢 Numerical evidence
+- **Numerical evidence** — paper-direct formulas (Voros, Lagarias σ_j, Mertens, Wigner, Hilbert-Pólya) with mpmath data tables inline
+
 ## 🛠 Process / Methodology
 - **The 4-phase research cycle protocol**
 - **Six external critiques absorbed**
