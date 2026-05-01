@@ -1,7 +1,8 @@
 ---
 title: "직관 calibration 데이터"
+parent: 한국어
+nav_order: 8
 date: 2026-05-02
-lang: ko
 ---
 
 # 직관 calibration 데이터

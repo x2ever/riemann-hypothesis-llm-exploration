@@ -1,7 +1,8 @@
 ---
 title: "외부 critique 6회 흡수"
+parent: 한국어
+nav_order: 7
 date: 2026-05-02
-lang: ko
 ---
 
 # 외부 critique 6회 흡수

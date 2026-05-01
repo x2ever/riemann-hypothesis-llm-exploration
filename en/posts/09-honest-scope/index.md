@@ -1,7 +1,8 @@
 ---
 title: "Honest Scope — what the project does NOT claim"
+parent: English
+nav_order: 9
 date: 2026-05-02
-lang: en
 ---
 
 # Honest Scope — what the project does NOT claim

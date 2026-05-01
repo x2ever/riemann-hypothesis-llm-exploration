@@ -1,7 +1,8 @@
 ---
 title: "Finding 4: Atiyah 2018 §3.3 has a paper-direct step gap"
+parent: English
+nav_order: 5
 date: 2026-05-02
-lang: en
 ---
 
 # Finding 4: Atiyah 2018 §3.3 has a paper-direct step gap

@@ -1,7 +1,8 @@
 ---
 title: "Finding 1: An 11/11 axiom-6 ceiling across Hilbert-Pólya candidates"
+parent: English
+nav_order: 2
 date: 2026-05-02
-lang: en
 ---
 
 # Finding 1: An 11/11 axiom-6 ceiling across Hilbert–Pólya candidates

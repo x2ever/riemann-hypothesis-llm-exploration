@@ -1,7 +1,8 @@
 ---
 title: "Six external critiques absorbed"
+parent: English
+nav_order: 7
 date: 2026-05-02
-lang: en
 ---
 
 # Six external critiques absorbed

@@ -1,7 +1,8 @@
 ---
 title: "Intuition calibration data"
+parent: English
+nav_order: 8
 date: 2026-05-02
-lang: en
 ---
 
 # Intuition calibration data

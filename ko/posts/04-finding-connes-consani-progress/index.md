@@ -1,7 +1,8 @@
 ---
 title: "Finding 3: Connes–Consani 2018→2021 측정 가능 진전"
+parent: 한국어
+nav_order: 4
 date: 2026-05-02
-lang: ko
 ---
 
 # Finding 3: Connes–Consani 2018 → 2021 측정 가능 진전

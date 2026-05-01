@@ -1,7 +1,8 @@
 ---
 title: "프로젝트 개요"
+parent: 한국어
+nav_order: 1
 date: 2026-05-02
-lang: ko
 ---
 
 # 프로젝트 개요

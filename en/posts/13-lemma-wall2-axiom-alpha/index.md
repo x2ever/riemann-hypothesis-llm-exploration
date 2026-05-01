@@ -1,7 +1,8 @@
 ---
 title: "Lemma 10 — Wall #2 axiom-α universal NO across 4 paper-direct candidates (full content)"
+parent: English
+nav_order: 13
 date: 2026-05-02
-lang: en
 ---
 
 # Lemma 10 — Wall #2 (Forward Heat Flow) Axiom α Universal NO

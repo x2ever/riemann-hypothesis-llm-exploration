@@ -1,7 +1,8 @@
 ---
 title: "Lemma 4 — Failed Proof Categories (전문)"
+parent: 한국어
+nav_order: 15
 date: 2026-05-02
-lang: ko
 ---
 
 # Lemma 4 — Failed Proof Categories

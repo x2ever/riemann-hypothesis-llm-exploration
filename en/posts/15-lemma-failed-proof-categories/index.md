@@ -1,7 +1,8 @@
 ---
 title: "Lemma 4 — Failed Proof Categories (full content)"
+parent: English
+nav_order: 15
 date: 2026-05-02
-lang: en
 ---
 
 # Lemma 4 — Failed Proof Categories

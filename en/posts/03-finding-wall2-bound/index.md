@@ -1,7 +1,8 @@
 ---
 title: "Finding 2: Wall #2 ∫E(t)dt unconditional bound — 4/4 universal NO"
+parent: English
+nav_order: 3
 date: 2026-05-02
-lang: en
 ---
 
 # Finding 2: Wall #2 ∫E(t)dt unconditional bound — 4/4 universal NO

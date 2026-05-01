@@ -1,7 +1,8 @@
 ---
 title: "Lemma 1 — Spectral Candidate Circularity Check (full content)"
+parent: English
+nav_order: 14
 date: 2026-05-02
-lang: en
 ---
 
 # Lemma 1 — Spectral Candidate Circularity Check

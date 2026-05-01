@@ -1,7 +1,8 @@
 ---
 title: "Reporter flag — Cycle Protocol preprint draft §abstract에 미묘한 over-claim"
+parent: 한국어
+nav_order: 11
 date: 2026-05-02
-lang: ko
 ---
 
 # Reporter flag — Cycle Protocol preprint draft §abstract에 미묘한 over-claim

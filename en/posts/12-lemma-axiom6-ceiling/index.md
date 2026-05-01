@@ -1,7 +1,8 @@
 ---
 title: "Lemma 9 — Axiom-6 universal NO across 11 Hilbert-Pólya candidates (full content)"
+parent: English
+nav_order: 12
 date: 2026-05-02
-lang: en
 ---
 
 # Lemma 9 — Axiom 6 (Single Hamiltonian Uniqueness) Universal NO
